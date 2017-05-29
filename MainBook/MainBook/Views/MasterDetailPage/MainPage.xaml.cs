@@ -153,7 +153,7 @@ namespace MainBook.Views.MasterDetailPage
 
         public void SetMenuPanel()
         {
-            var _turnOff_OnName = CommonData.IsNightMode ? "on." : "off.";
+            var _turnOff_OnName = CommonData.IsNightMode ? "on" : "off";
             _viewModel.BackgroundTitleIsVisible = !CommonData.IsNightMode;
             _viewModel.ReadedFactsTitle = $"Already read ({CommonData.ReadedFactCount})";
             _viewModel.AllFactsTitle = $"All facts";

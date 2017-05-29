@@ -358,11 +358,14 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>34589DenisChaykin.2560592F9C416</MainPackageIdentityName>
+    <MainPackageIdentityName>34589DenisChaykin.Top1000Facts</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>Лучшие Факты</ReservedName>
+      <ReservedName>Top 1000+ Facts</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
-  <AccountPackageIdentityNames />
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9PPNV3K7652L" />
+  <AccountPackageIdentityNames>
+    <MainPackageIdentityName>34589DenisChaykin.2560592F9C416</MainPackageIdentityName>
+    <MainPackageIdentityName>34589DenisChaykin.2576931E0DC3A</MainPackageIdentityName>
+  </AccountPackageIdentityNames>
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9N8B3WH3TQSG" />
 </StoreAssociation>
