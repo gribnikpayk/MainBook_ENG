@@ -1,0 +1,2916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="1" xml:space="preserve">
+    <value>Butterflies cannot fly if their body temperature is less than 86 degrees.</value>
+  </data>
+  <data name="2" xml:space="preserve">
+    <value>Neurons multiply at a rate 250,000 neurons per minute during early pregnancy.</value>
+  </data>
+  <data name="3" xml:space="preserve">
+    <value>Elephants have the longest pregnancy in the animal kingdom at 22 months. The longest human pregnancy on record is 17 months, 11 days.</value>
+  </data>
+  <data name="4" xml:space="preserve">
+    <value>A female oyster produces 100 million young in her lifetime, the typical hen lays 19 dozen eggs a year, and it is possible for one female cat to be responsible for the birth of 20,736 kittens in four years. Michelle Druggar holds the record for largest human family, having given birth to 17 children.</value>
+  </data>
+  <data name="5" xml:space="preserve">
+    <value>750ml of blood pumps through your brain every minute which is 15-20% of blood flow from the heart.</value>
+  </data>
+  <data name="6" xml:space="preserve">
+    <value>The is about 75% water.</value>
+  </data>
+  <data name="7" xml:space="preserve">
+    <value>Dragonflies are capable of flying sixty miles per hour, making them one of the fastest insects. This is good since they are in a big hurry, as they only live about twenty-four hours.</value>
+  </data>
+  <data name="8" xml:space="preserve">
+    <value>Flies jump backwards during takeoff.</value>
+  </data>
+  <data name="9" xml:space="preserve">
+    <value>A housefly will regurgitate its food and eat it again.</value>
+  </data>
+  <data name="10" xml:space="preserve">
+    <value>Termites outweigh humans by almost ten to one.</value>
+  </data>
+  <data name="11" xml:space="preserve">
+    <value>A spider's web is not a home, but rather a trap for its food. They are as individual as snowflakes, with no two ever being the same. Some tropical spiders have built webs over eighteen feet across.</value>
+  </data>
+  <data name="12" xml:space="preserve">
+    <value>More people are afraid of spiders than death. Amazingly, few people are afraid of Champagne corks even though you are more likely to be killed by one than by a spider.</value>
+  </data>
+  <data name="13" xml:space="preserve">
+    <value>Your brain consumes 25 watts of power while you’re awake. This amount of energy is enough to illuminate a lightbulb.</value>
+  </data>
+  <data name="14" xml:space="preserve">
+    <value>It is impossible to lick your elbow.</value>
+  </data>
+  <data name="15" xml:space="preserve">
+    <value>Intelligent people have more zinc and copper in their hair.</value>
+  </data>
+  <data name="16" xml:space="preserve">
+    <value>Possums have one of the shortest pregnancies at 16 days. The shortest human pregnancy to produce a healthy baby was 22 weeks, 6 days -- the baby was the length of a ballpoint pen.</value>
+  </data>
+  <data name="17" xml:space="preserve">
+    <value>The most poisonous spider is the black widow. Its venom is more potent than a rattlesnake's.</value>
+  </data>
+  <data name="18" xml:space="preserve">
+    <value>13% of Americans actually believe that some parts of the moon are made of cheese.</value>
+  </data>
+  <data name="19" xml:space="preserve">
+    <value>The world's youngest parents were 8 and 9 and lived in China in 1910.</value>
+  </data>
+  <data name="20" xml:space="preserve">
+    <value>Fish that live more than 800 meters below the ocean surface don't have eyes.</value>
+  </data>
+  <data name="21" xml:space="preserve">
+    <value>Butterflies range in size from a tiny 1/8 inch to a huge almost 12 inches.</value>
+  </data>
+  <data name="22" xml:space="preserve">
+    <value>Some Case Moth caterpillars (Psychidae) build a case around themselves that they always carry with them. It is made of silk and pieces of plants or soil.</value>
+  </data>
+  <data name="23" xml:space="preserve">
+    <value>Most household dust is made of dead skin cells.</value>
+  </data>
+  <data name="24" xml:space="preserve">
+    <value>One in eight million people has progeria, a disease that causes people to grow faster than they age.</value>
+  </data>
+  <data name="25" xml:space="preserve">
+    <value>The male seahorse carries the eggs until they hatch instead of the female.</value>
+  </data>
+  <data name="26" xml:space="preserve">
+    <value>Negative emotions such as anxiety and depression can weaken your immune system.</value>
+  </data>
+  <data name="27" xml:space="preserve">
+    <value>Stephen Hawking was born exactly 300 years after Galileo died.</value>
+  </data>
+  <data name="28" xml:space="preserve">
+    <value>Mercury is the only planet whose orbit is coplanar with its equator.</value>
+  </data>
+  <data name="29" xml:space="preserve">
+    <value>The Morgan's Sphinx Moth from Madagascar has a proboscis (tube mouth) that is 12 to 14 inches long to get the nectar from the bottom of a 12 inch deep orchid discovered by Charles Darwin.</value>
+  </data>
+  <data name="30" xml:space="preserve">
+    <value>Some moths never eat anything as adults because they don't have mouths. They must live on the energy they stored as caterpillars.</value>
+  </data>
+  <data name="31" xml:space="preserve">
+    <value>In 1958 Entomologist W.G. Bruce published a list of Arthropod references in the Bible. The most frequently named bugs from the Bible are: Locust: 24, Moth: 11, Grasshopper: 10, Scorpion: 10, Caterpillar: 9, and Bee: 4.</value>
+  </data>
+  <data name="32" xml:space="preserve">
+    <value>People eat insects – called 'Entomophagy'(people eating bugs) – it has been practiced for centuries throughout Africa, Australia, Asia, the Middle East, and North, Central and South America. Why? Because many bugs are both protein-rich and good sources of vitamins, minerals and fats.</value>
+  </data>
+  <data name="33" xml:space="preserve">
+    <value>Grapes explode when you put them in the microwave. Go on, try it then</value>
+  </data>
+  <data name="34" xml:space="preserve">
+    <value>Ramses brand condom is named after the great pharaoh Ramses II who fathered over 160 children.</value>
+  </data>
+  <data name="35" xml:space="preserve">
+    <value>Peanuts are one of the ingredients of dynamite.</value>
+  </data>
+  <data name="36" xml:space="preserve">
+    <value>The average chocolate bar has 8 insects' legs in it.</value>
+  </data>
+  <data name="37" xml:space="preserve">
+    <value>In York, it is perfectly legal to shoot a Scotsman with a bow and arrow (except on Sundays)</value>
+  </data>
+  <data name="38" xml:space="preserve">
+    <value>No piece of square dry paper can be folded in half more than 7 times</value>
+  </data>
+  <data name="39" xml:space="preserve">
+    <value>The average human eats 8 spiders in their lifetime at night.</value>
+  </data>
+  <data name="40" xml:space="preserve">
+    <value>The Beetham Tower cost over £150 million to build.</value>
+  </data>
+  <data name="41" xml:space="preserve">
+    <value>The Beetham Tower has 47 floors.</value>
+  </data>
+  <data name="42" xml:space="preserve">
+    <value>'Stewardesses' is the longest word typed with only the left hand.</value>
+  </data>
+  <data name="43" xml:space="preserve">
+    <value>An average human loses about 200 head hairs per day.</value>
+  </data>
+  <data name="44" xml:space="preserve">
+    <value>Mexico City sinks about 10 inches a year</value>
+  </data>
+  <data name="45" xml:space="preserve">
+    <value>It's impossible to sneeze with your eyes open.</value>
+  </data>
+  <data name="46" xml:space="preserve">
+    <value>In France, a five year old child can buy an alcoholic drink in a bar</value>
+  </data>
+  <data name="47" xml:space="preserve">
+    <value>During the chariot scene in 'Ben Hur,' a small red car can be seen in the distance.</value>
+  </data>
+  <data name="48" xml:space="preserve">
+    <value>The glue on Israeli postage is certified kosher.</value>
+  </data>
+  <data name="49" xml:space="preserve">
+    <value>In 10 minutes, a hurricane releases more energy than all of the world's nuclear weapons combined.</value>
+  </data>
+  <data name="50" xml:space="preserve">
+    <value>On average, 100 people choke to death on ball-point pens every year.</value>
+  </data>
+  <data name="51" xml:space="preserve">
+    <value>The top butterfly flight speed is 12 miles per hour. Some moths can fly 25 miles per hour!</value>
+  </data>
+  <data name="52" xml:space="preserve">
+    <value>The Brimstone butterfly (Gonepterix rhamni) has the longest lifetime of the adult butterflies: 9-10 months.</value>
+  </data>
+  <data name="53" xml:space="preserve">
+    <value>Bruce Lee was so fast that they actually had to s-l-o-w film down so you could see his moves.</value>
+  </data>
+  <data name="54" xml:space="preserve">
+    <value>A Boeing 747s wingspan is longer than the Wright brother's first flight.</value>
+  </data>
+  <data name="55" xml:space="preserve">
+    <value>Representations of butterflies are seen in Egyptian frescoes at Thebes, which are 3,500 years old.</value>
+  </data>
+  <data name="56" xml:space="preserve">
+    <value>14% of all facts and statistics are made up and 27% of people know that fact.</value>
+  </data>
+  <data name="57" xml:space="preserve">
+    <value>Eskimos have over 15 words for the English word of 'Snow'</value>
+  </data>
+  <data name="58" xml:space="preserve">
+    <value>Butterflies can see red, green, and yellow.</value>
+  </data>
+  <data name="59" xml:space="preserve">
+    <value>Some people say that when the black bands on the Woolybear caterpillar are wide, a cold winter is coming.</value>
+  </data>
+  <data name="60" xml:space="preserve">
+    <value>Americans on the average eat 18 acres of pizza every day.</value>
+  </data>
+  <data name="61" xml:space="preserve">
+    <value>Almonds are a member of the peach family.</value>
+  </data>
+  <data name="62" xml:space="preserve">
+    <value>The plastic things on the end of shoelaces are called aglets.</value>
+  </data>
+  <data name="63" xml:space="preserve">
+    <value>'Ithyphallophobia' is a morbid fear of seeing, thinking about or having an erect penis.</value>
+  </data>
+  <data name="64" xml:space="preserve">
+    <value>The average shelf-life of a latex condom is about two years.</value>
+  </data>
+  <data name="65" xml:space="preserve">
+    <value>14% of Americans have skinny-dipped with a member of the opposite sex at least once.</value>
+  </data>
+  <data name="66" xml:space="preserve">
+    <value>Male bats have the highest rate of homosexuality of any mammal.</value>
+  </data>
+  <data name="67" xml:space="preserve">
+    <value>A man's beard grows fastest when he anticipates sex.</value>
+  </data>
+  <data name="68" xml:space="preserve">
+    <value>A man will ejaculate approximately 18 quarts of semen in his lifetime.</value>
+  </data>
+  <data name="69" xml:space="preserve">
+    <value>Sex is biochemically no different from eating large quantities of chocolate.</value>
+  </data>
+  <data name="70" xml:space="preserve">
+    <value>For every 'normal' webpage, there are five porn pages.</value>
+  </data>
+  <data name="71" xml:space="preserve">
+    <value>'Venus observa' is the technical term for the 'missionary position.'</value>
+  </data>
+  <data name="72" xml:space="preserve">
+    <value>Sex is the safest tranquilizer in the world. IT IS 10 TIMES MORE EFFECTIVE THAN VALIUM.</value>
+  </data>
+  <data name="73" xml:space="preserve">
+    <value>Samuel Clemens (Mark Twain) was born on and died on days when Halley’s Comet can be seen.</value>
+  </data>
+  <data name="74" xml:space="preserve">
+    <value>US Dollar bills are made out of cotton and linen.</value>
+  </data>
+  <data name="75" xml:space="preserve">
+    <value>The 57 on the Heinz ketchup bottle represents the number of pickle types the company once had.</value>
+  </data>
+  <data name="76" xml:space="preserve">
+    <value>Americans are responsible for about 1/5 of the world’s garbage annually.</value>
+  </data>
+  <data name="77" xml:space="preserve">
+    <value>Giraffes and rats can last longer without water than camels.</value>
+  </data>
+  <data name="78" xml:space="preserve">
+    <value>Your stomach produces a new layer of mucus every two weeks so that it doesn’t digest itself.</value>
+  </data>
+  <data name="79" xml:space="preserve">
+    <value>98% of all murders and rapes are by a close family member or friend of the victim.</value>
+  </data>
+  <data name="80" xml:space="preserve">
+    <value>A B-25 bomber crashed into the 79th floor of the Empire State Building on July 28, 1945.</value>
+  </data>
+  <data name="81" xml:space="preserve">
+    <value>The Declaration of Independence was written on hemp (marijuana) paper.</value>
+  </data>
+  <data name="82" xml:space="preserve">
+    <value>The dot over the letter “i” is called a tittle.</value>
+  </data>
+  <data name="83" xml:space="preserve">
+    <value>Benjamin Franklin was the fifth in a series of the youngest son of the youngest son.</value>
+  </data>
+  <data name="84" xml:space="preserve">
+    <value>Triskaidekaphobia means fear of the number 13.</value>
+  </data>
+  <data name="85" xml:space="preserve">
+    <value>Paraskevidekatriaphobia means fear of Friday the 13th, which occurs one to three times a year.</value>
+  </data>
+  <data name="86" xml:space="preserve">
+    <value>In Italy, 17 is considered an unlucky number. In Japan, 4 is considered an unlucky number.</value>
+  </data>
+  <data name="87" xml:space="preserve">
+    <value>In ancient Rome, when a man testified in court he would swear on his testicles.</value>
+  </data>
+  <data name="88" xml:space="preserve">
+    <value>The ZIP in 'ZIP code' means Zoning Improvement Plan.</value>
+  </data>
+  <data name="89" xml:space="preserve">
+    <value>Coca-Cola contained Coca (whose active ingredient is cocaine) from 1885 to 1903.</value>
+  </data>
+  <data name="90" xml:space="preserve">
+    <value>A '2 by 4' is really 1 1/2 by 3 1/2.</value>
+  </data>
+  <data name="91" xml:space="preserve">
+    <value>It’s estimated that at any one time around 0.7% of the world’s population is drunk.</value>
+  </data>
+  <data name="92" xml:space="preserve">
+    <value>40% of McDonald’s profits come from the sales of Happy Meals.</value>
+  </data>
+  <data name="93" xml:space="preserve">
+    <value>Every person, including identical twins, has a unique eye &amp;amp; tongue print along with their fingerprint.</value>
+  </data>
+  <data name="94" xml:space="preserve">
+    <value>The “spot” on the 7-Up logo comes from its inventor who had red eyes. He was an albino.</value>
+  </data>
+  <data name="95" xml:space="preserve">
+    <value>315 entries in Webster’s 1996 dictionary were misspelled.</value>
+  </data>
+  <data name="96" xml:space="preserve">
+    <value>The “save” icon in Microsoft Office programs shows a floppy disk with the shutter on backwards.</value>
+  </data>
+  <data name="97" xml:space="preserve">
+    <value>Albert Einstein and Charles Darwin both married their first cousins</value>
+  </data>
+  <data name="98" xml:space="preserve">
+    <value>Camel’s have three eyelids.</value>
+  </data>
+  <data name="99" xml:space="preserve">
+    <value>On average, 12 newborns will be given to the wrong parents every day.</value>
+  </data>
+  <data name="100" xml:space="preserve">
+    <value>John Wilkes Booth’s brother once saved the life of Abraham Lincoln’s son.</value>
+  </data>
+  <data name="101" xml:space="preserve">
+    <value>Warren Beatty and Shirley McLaine are brother and sister.</value>
+  </data>
+  <data name="102" xml:space="preserve">
+    <value>Chocolate can kill dogs; it directly affects their heart and nervous system.</value>
+  </data>
+  <data name="103" xml:space="preserve">
+    <value>Daniel Boone hated coonskin caps.</value>
+  </data>
+  <data name="104" xml:space="preserve">
+    <value>55.1% of all US prisoners are in prison for drug offenses.</value>
+  </data>
+  <data name="105" xml:space="preserve">
+    <value>Dr. Seuss pronounced his name “soyce”.</value>
+  </data>
+  <data name="106" xml:space="preserve">
+    <value>India has a Bill of Rights for cows.</value>
+  </data>
+  <data name="107" xml:space="preserve">
+    <value>American Airlines saved $40,000 in 1987 by taking out an olive from First Class salads.</value>
+  </data>
+  <data name="108" xml:space="preserve">
+    <value>About 200,000,000 M and Ms are sold each day in the United States.</value>
+  </data>
+  <data name="109" xml:space="preserve">
+    <value>There are 318,979,564,000 possible combinations of the first four moves in Chess.</value>
+  </data>
+  <data name="110" xml:space="preserve">
+    <value>Coconuts kill about 150 people each year. That’s more than sharks.</value>
+  </data>
+  <data name="111" xml:space="preserve">
+    <value>Half of all bank robberies take place on a Friday.</value>
+  </data>
+  <data name="112" xml:space="preserve">
+    <value>The name Wendy was made up for the book Peter Pan. There was never a recorded Wendy before it.</value>
+  </data>
+  <data name="113" xml:space="preserve">
+    <value>The international telephone dialing code for Antarctica is 672.</value>
+  </data>
+  <data name="114" xml:space="preserve">
+    <value>The first bomb the Allies dropped on Berlin in WWII killed the only elephant in the Berlin Zoo.</value>
+  </data>
+  <data name="115" xml:space="preserve">
+    <value>The average raindrop falls at 7 miles per hour.</value>
+  </data>
+  <data name="116" xml:space="preserve">
+    <value>If you put a drop of liquor on a scorpion, it will instantly go mad and sting itself to death.</value>
+  </data>
+  <data name="117" xml:space="preserve">
+    <value>Bruce Lee was so fast that they had to slow the film down so you could see his moves.</value>
+  </data>
+  <data name="118" xml:space="preserve">
+    <value>The first CD pressed in the US was Bruce Springsteen’s “Born in the USA”.</value>
+  </data>
+  <data name="119" xml:space="preserve">
+    <value>IBM’s motto is “Think”. Apple later made their motto “Think different”.</value>
+  </data>
+  <data name="120" xml:space="preserve">
+    <value>The original name for butterfly was flutterby.</value>
+  </data>
+  <data name="121" xml:space="preserve">
+    <value>One in fourteen women in America is a natural blonde. Only one in sixteen men is.</value>
+  </data>
+  <data name="122" xml:space="preserve">
+    <value>The Olympic was the sister ship of the Titanic, and she provided twenty-five years of service.</value>
+  </data>
+  <data name="123" xml:space="preserve">
+    <value>When the Titanic sank, 2228 people were on it. Only 706 survived.</value>
+  </data>
+  <data name="124" xml:space="preserve">
+    <value>Every day, 7% of the US eats at McDonald’s.</value>
+  </data>
+  <data name="125" xml:space="preserve">
+    <value>During his entire life, Vincent Van Gogh sold exactly one painting, “Red Vineyard at Arles”.</value>
+  </data>
+  <data name="126" xml:space="preserve">
+    <value>One in ten people live on an island.</value>
+  </data>
+  <data name="127" xml:space="preserve">
+    <value>It takes more calories to eat a piece of celery than the celery has in it to begin with.</value>
+  </data>
+  <data name="128" xml:space="preserve">
+    <value>28% of Africa is classified as wilderness. In North America, its 38%.</value>
+  </data>
+  <data name="129" xml:space="preserve">
+    <value>Chewing gum while peeling onions will keep you from crying.</value>
+  </data>
+  <data name="130" xml:space="preserve">
+    <value>Sherlock Holmes NEVER said “Elementary, my dear Watson”</value>
+  </data>
+  <data name="131" xml:space="preserve">
+    <value>Humphrey Bogart NEVER said “Play it again, Sam” in Casablanca</value>
+  </data>
+  <data name="132" xml:space="preserve">
+    <value>They NEVER said “Beam me up, Scotty” on Star Trek.</value>
+  </data>
+  <data name="133" xml:space="preserve">
+    <value>Sharon Stone was the first Star Search spokes model.</value>
+  </data>
+  <data name="134" xml:space="preserve">
+    <value>More people are afraid of open spaces (kenophobia) than of tight spaces (claustrophobia).</value>
+  </data>
+  <data name="135" xml:space="preserve">
+    <value>There is a 1 in 4 chance that New York will have a white Christmas.</value>
+  </data>
+  <data name="136" xml:space="preserve">
+    <value>The Guinness Book of Records holds the record for being the book most often stolen from Libraries.</value>
+  </data>
+  <data name="137" xml:space="preserve">
+    <value>$203,000,000 is spent on barbed wire each year in the U.S.</value>
+  </data>
+  <data name="138" xml:space="preserve">
+    <value>Every US president has worn glasses (just not always in public).</value>
+  </data>
+  <data name="139" xml:space="preserve">
+    <value>Bats always turn left when exiting a cave.</value>
+  </data>
+  <data name="140" xml:space="preserve">
+    <value>Jim Henson first coined the word “Muppet”. It is a combination of “marionette” and “puppet.”</value>
+  </data>
+  <data name="141" xml:space="preserve">
+    <value>The Michelin man is known as Mr. Bib. His name was Bibendum in the company’s first ads in 1896.</value>
+  </data>
+  <data name="142" xml:space="preserve">
+    <value>The word “lethologica” describes the state of not being able to remember the word you want.</value>
+  </data>
+  <data name="143" xml:space="preserve">
+    <value>About 14% of injecting drug users are HIV positive.</value>
+  </data>
+  <data name="144" xml:space="preserve">
+    <value>A word or sentence that is the same front and back (racecar, kayak) is called a “palindrome”.</value>
+  </data>
+  <data name="145" xml:space="preserve">
+    <value>A snail can sleep for 3 years.</value>
+  </data>
+  <data name="146" xml:space="preserve">
+    <value>People photocopying their buttocks are the cause of 23% of all photocopier faults worldwide.</value>
+  </data>
+  <data name="147" xml:space="preserve">
+    <value>China has more English speakers than the United States.</value>
+  </data>
+  <data name="148" xml:space="preserve">
+    <value>One in every 9000 people is an albino.</value>
+  </data>
+  <data name="149" xml:space="preserve">
+    <value>There are about a million ants per person. Ants are very social animals and will live in colonies that can contain almost 500,000 ants.</value>
+  </data>
+  <data name="150" xml:space="preserve">
+    <value>You share your birthday with at least 9 million other people in the world.</value>
+  </data>
+  <data name="151" xml:space="preserve">
+    <value>Everyday, more money is printed for Monopoly sets than for the U.S. Treasury.</value>
+  </data>
+  <data name="152" xml:space="preserve">
+    <value>Every year 4 people in the UK die putting their trousers on.</value>
+  </data>
+  <data name="153" xml:space="preserve">
+    <value>Cats have over one hundred vocal sounds; dogs only have about ten.</value>
+  </data>
+  <data name="154" xml:space="preserve">
+    <value>Our eyes are always the same size from birth but our nose and ears never stop growing.</value>
+  </data>
+  <data name="155" xml:space="preserve">
+    <value>In every episode of “Seinfeld” there is a Superman picture or reference somewhere.</value>
+  </data>
+  <data name="156" xml:space="preserve">
+    <value>Rats multiply so quickly that in 18 months, two rats could have over million descendants.</value>
+  </data>
+  <data name="157" xml:space="preserve">
+    <value>Each year in America there are about 300,000 deaths that can be attributed to obesity.</value>
+  </data>
+  <data name="158" xml:space="preserve">
+    <value>Many butterflies can taste with their feet to find out whether the leaf they sit on is good to lay eggs on to be their caterpillars' food or not.</value>
+  </data>
+  <data name="159" xml:space="preserve">
+    <value>There are more types of insects in one tropical rain forest tree than there are in the entire state of Vermont.</value>
+  </data>
+  <data name="160" xml:space="preserve">
+    <value>About 55% of all movies are rated R.</value>
+  </data>
+  <data name="161" xml:space="preserve">
+    <value>About 500 movies are made in the US and 800 in India annually.</value>
+  </data>
+  <data name="162" xml:space="preserve">
+    <value>Arabic numerals are not really Arabic; they were created in India.</value>
+  </data>
+  <data name="163" xml:space="preserve">
+    <value>The February of 1865 is the only month in recorded history not to have a full moon.</value>
+  </data>
+  <data name="164" xml:space="preserve">
+    <value>There is actually no danger in swimming right after you eat, though it may feel uncomfortable.</value>
+  </data>
+  <data name="165" xml:space="preserve">
+    <value>The cruise liner Queen Elizabeth II moves only six inches for each gallon of diesel that it burns.</value>
+  </data>
+  <data name="166" xml:space="preserve">
+    <value>There are about 2 chickens for every human in the world.</value>
+  </data>
+  <data name="167" xml:space="preserve">
+    <value>The word “maverick” came into use after Samuel Maverick, a Texan refused to brand his cattle.</value>
+  </data>
+  <data name="168" xml:space="preserve">
+    <value>Two-thirds of the world’s eggplant is grown in New Jersey.</value>
+  </data>
+  <data name="169" xml:space="preserve">
+    <value>Termites have been known to eat food twice as fast when heavy metal music is playing.</value>
+  </data>
+  <data name="170" xml:space="preserve">
+    <value>There are more beetles than any other animal. In fact, one out of every four animals is a beetle.</value>
+  </data>
+  <data name="171" xml:space="preserve">
+    <value>The rhinoceros beetle is the strongest animal and is capable of lifting 850 times its own weight.</value>
+  </data>
+  <data name="172" xml:space="preserve">
+    <value>On a Canadian two-dollar bill, the American flag is flying over the Parliament Building.</value>
+  </data>
+  <data name="173" xml:space="preserve">
+    <value>An American urologist bought Napoleon’s penis for $40,000.</value>
+  </data>
+  <data name="174" xml:space="preserve">
+    <value>Dreamt is the only English word that ends in the letters “MT”.</value>
+  </data>
+  <data name="175" xml:space="preserve">
+    <value>$283,200 is the absolute highest amount of money you can win on Jeopardy.</value>
+  </data>
+  <data name="176" xml:space="preserve">
+    <value>Rats and horses can’t vomit.</value>
+  </data>
+  <data name="177" xml:space="preserve">
+    <value>The penguin is the only that can’t fly but can swim.</value>
+  </data>
+  <data name="178" xml:space="preserve">
+    <value>There are approximately 100 million acts of sexual intercourse each day.</value>
+  </data>
+  <data name="179" xml:space="preserve">
+    <value>Winston Churchill was born in a ladies room during a dance.</value>
+  </data>
+  <data name="180" xml:space="preserve">
+    <value>Maine is the only state whose name is just one syllable.</value>
+  </data>
+  <data name="181" xml:space="preserve">
+    <value>Venus is the only planet that rotates clockwise.</value>
+  </data>
+  <data name="182" xml:space="preserve">
+    <value>Every time you lick a stamp you consume 1/10 of a calorie.</value>
+  </data>
+  <data name="183" xml:space="preserve">
+    <value>You are more likely to be killed by a champagne cork than by a poisonous spider.</value>
+  </data>
+  <data name="184" xml:space="preserve">
+    <value>Hedenophobic means fear of pleasure.</value>
+  </data>
+  <data name="185" xml:space="preserve">
+    <value>Ancient Egyptian priests would pluck every hair from their bodies.</value>
+  </data>
+  <data name="186" xml:space="preserve">
+    <value>An ant always falls over on its right side when intoxicated.</value>
+  </data>
+  <data name="187" xml:space="preserve">
+    <value>The catfish has over 27000 taste buds (more than any other animal)</value>
+  </data>
+  <data name="188" xml:space="preserve">
+    <value>A cockroach will live nine days without its head before it starves to death.</value>
+  </data>
+  <data name="189" xml:space="preserve">
+    <value>Many insects can carry 50 times their own body weight. This would be like an adult person lifting two heavy cars full of people.</value>
+  </data>
+  <data name="190" xml:space="preserve">
+    <value>There are over a million described species of insects. Some people estimate there are actually between 15 and 30 million species.</value>
+  </data>
+  <data name="191" xml:space="preserve">
+    <value>Most insects are beneficial to people because they eat other insects, pollinate crops, are food for other animals, make products we use (like honey and silk) or have medical uses.</value>
+  </data>
+  <data name="192" xml:space="preserve">
+    <value>Butterflies and insects have their skeletons on the outside of their bodies, called the exoskeleton. This protects the insect and keeps water inside their bodies so they don’t dry out. </value>
+  </data>
+  <data name="193" xml:space="preserve">
+    <value>Elephants are the only mammals that cannot jump.</value>
+  </data>
+  <data name="194" xml:space="preserve">
+    <value>An ostrich’s eye is bigger than its brain.</value>
+  </data>
+  <data name="195" xml:space="preserve">
+    <value>11% of the world is left-handed.</value>
+  </data>
+  <data name="196" xml:space="preserve">
+    <value>Rubber bands last longer when refrigerated.</value>
+  </data>
+  <data name="197" xml:space="preserve">
+    <value>The national anthem of Greece has 158 verses.</value>
+  </data>
+  <data name="198" xml:space="preserve">
+    <value>There are 293 ways to make change for a dollar.</value>
+  </data>
+  <data name="199" xml:space="preserve">
+    <value>A healthy (non-colorblind) human eye can distinguish between 500 shades of gray.</value>
+  </data>
+  <data name="200" xml:space="preserve">
+    <value>Lizards can self-amputate their tails for protection. It grows back after a few months.</value>
+  </data>
+  <data name="201" xml:space="preserve">
+    <value>Los Angeles’ full name is “El Pueblo de Nuestra Senora la Reina de los Angeles de Porciuncula”.</value>
+  </data>
+  <data name="202" xml:space="preserve">
+    <value>A cat has 32 muscles in each ear.</value>
+  </data>
+  <data name="203" xml:space="preserve">
+    <value>A honeybee can fly at fifteen miles per hour.</value>
+  </data>
+  <data name="204" xml:space="preserve">
+    <value>Tigers have striped skin, not just striped fur.</value>
+  </data>
+  <data name="205" xml:space="preserve">
+    <value>A “jiffy” is the scientific name for 1/100th of a second.</value>
+  </data>
+  <data name="206" xml:space="preserve">
+    <value>The average child recognizes over 200 company logos by the time he enters first grade.</value>
+  </data>
+  <data name="207" xml:space="preserve">
+    <value>The youngest pope ever was 11 years old.</value>
+  </data>
+  <data name="208" xml:space="preserve">
+    <value>The first novel ever written on a typewriter is Tom Sawyer.</value>
+  </data>
+  <data name="209" xml:space="preserve">
+    <value>A rhinoceros horn is made of compacted hair.</value>
+  </data>
+  <data name="210" xml:space="preserve">
+    <value>Elwood Edwards did the voice for the AOL sound files (i.e. “You’ve got Mail!”).</value>
+  </data>
+  <data name="211" xml:space="preserve">
+    <value>A polar bears skin is black. Its fur is actually clear, but like snow it appears white.</value>
+  </data>
+  <data name="212" xml:space="preserve">
+    <value>Elvis had a twin brother named Garon, who died at birth, which is why Elvis middle name was Aron.</value>
+  </data>
+  <data name="213" xml:space="preserve">
+    <value> Dueling is legal in Paraguay as long as both parties are registered blood donors.</value>
+  </data>
+  <data name="214" xml:space="preserve">
+    <value>Donkeys kill more people than plane crashes.</value>
+  </data>
+  <data name="215" xml:space="preserve">
+    <value>Shakespeare invented the words “assassination” and “bump.”</value>
+  </data>
+  <data name="216" xml:space="preserve">
+    <value>If you keep a goldfish in the dark room, it will eventually turn white.</value>
+  </data>
+  <data name="217" xml:space="preserve">
+    <value>The name Jeep comes from “GP”, the army abbreviation for General Purpose.</value>
+  </data>
+  <data name="218" xml:space="preserve">
+    <value>There are two credit cards for every person in the United States.</value>
+  </data>
+  <data name="219" xml:space="preserve">
+    <value>Cats’ urine glows under a black light.</value>
+  </data>
+  <data name="220" xml:space="preserve">
+    <value>A “quidnunc” is a person who is eager to know the latest news and gossip.</value>
+  </data>
+  <data name="221" xml:space="preserve">
+    <value>Leonardo Da Vinci invented the scissors, the helicopter, and many other present day items.</value>
+  </data>
+  <data name="222" xml:space="preserve">
+    <value>In the last 4000 years no new animals have been domesticated.</value>
+  </data>
+  <data name="223" xml:space="preserve">
+    <value>25% of a human’s bones are in its feet.</value>
+  </data>
+  <data name="224" xml:space="preserve">
+    <value>On average, 100 people choke to death on ballpoint pens every year.</value>
+  </data>
+  <data name="225" xml:space="preserve">
+    <value>“Canada” is an Indian word meaning “Big Village”.</value>
+  </data>
+  <data name="226" xml:space="preserve">
+    <value>Only one in two billion people will live to be 116 or older.</value>
+  </data>
+  <data name="227" xml:space="preserve">
+    <value>Rape is reported every six minutes in the U.S.</value>
+  </data>
+  <data name="228" xml:space="preserve">
+    <value>The human heart creates enough pressure in the bloodstream to squirt blood 30 feet.</value>
+  </data>
+  <data name="229" xml:space="preserve">
+    <value>A jellyfish is 95% water.</value>
+  </data>
+  <data name="230" xml:space="preserve">
+    <value>The world's longest snake (by reliable documentation) is the reticulated python, with a maximum length of, perhaps, 30 feet.</value>
+  </data>
+  <data name="231" xml:space="preserve">
+    <value>Common Cobra venom is not on the list of top 10 venoms yet it is still 40 times more toxic than cyanide.</value>
+  </data>
+  <data name="232" xml:space="preserve">
+    <value>The venom of the Australian Brown Snake is so powerful only 1/14,000th of an ounce is enough to kill a human.</value>
+  </data>
+  <data name="233" xml:space="preserve">
+    <value>Truck driving is the most dangerous occupation by accidental deaths (799 in 2001).</value>
+  </data>
+  <data name="234" xml:space="preserve">
+    <value>Elephants only sleep for two hours each day.</value>
+  </data>
+  <data name="235" xml:space="preserve">
+    <value>On average people fear spiders more than they do death.</value>
+  </data>
+  <data name="236" xml:space="preserve">
+    <value>The strongest muscle in the human body is the tongue. (the heart is not a muscle)</value>
+  </data>
+  <data name="237" xml:space="preserve">
+    <value>In golf, a ‘Bo Derek’ is a score of 10.</value>
+  </data>
+  <data name="238" xml:space="preserve">
+    <value>In the U.S, Frisbees outsell footballs, baseballs and basketballs combined.</value>
+  </data>
+  <data name="239" xml:space="preserve">
+    <value>In most watch advertisements the time displayed on a watch is 10:10.</value>
+  </data>
+  <data name="240" xml:space="preserve">
+    <value>If you plant an apple seed, it is almost guaranteed to grow a tree of a different type of apple.</value>
+  </data>
+  <data name="241" xml:space="preserve">
+    <value>Al Capone’s business card said he was a used furniture dealer.</value>
+  </data>
+  <data name="242" xml:space="preserve">
+    <value>The only real person to be a PEZ head was Betsy Ross.</value>
+  </data>
+  <data name="243" xml:space="preserve">
+    <value>There are about 450 types of cheese in the world. 240 come from France.</value>
+  </data>
+  <data name="244" xml:space="preserve">
+    <value>A dragonfly has a lifespan of 24 hours.</value>
+  </data>
+  <data name="245" xml:space="preserve">
+    <value>In Iceland, a Big Mac costs $5.50.</value>
+  </data>
+  <data name="246" xml:space="preserve">
+    <value>Broccoli and cauliflower are the only vegetables that are flowers.</value>
+  </data>
+  <data name="247" xml:space="preserve">
+    <value>There is no solid proof of who built the Taj Mahal.</value>
+  </data>
+  <data name="248" xml:space="preserve">
+    <value>In a survey of 200000 ostriches over 80 years, not one tried to bury its head in the sand.</value>
+  </data>
+  <data name="249" xml:space="preserve">
+    <value>A dime has 118 ridges around the edge. A quarter has 119.</value>
+  </data>
+  <data name="250" xml:space="preserve">
+    <value>”Judge Judy” has a $25,000,000 salary, while Supreme Court Justice Ginsberg has a $190,100 salary.</value>
+  </data>
+  <data name="251" xml:space="preserve">
+    <value>Andorra, a tiny country between France &amp;amp; Spain, has the longest average lifespan: 83.49 years.</value>
+  </data>
+  <data name="252" xml:space="preserve">
+    <value>Mr. Rogers was an ordained Presbyterian minister.</value>
+  </data>
+  <data name="253" xml:space="preserve">
+    <value>In America you will see an average of 500 advertisements a day.</value>
+  </data>
+  <data name="254" xml:space="preserve">
+    <value>John Lennon’s first girlfriend was named Thelma Pickles.</value>
+  </data>
+  <data name="255" xml:space="preserve">
+    <value>You can lead a cow upstairs but not downstairs.</value>
+  </data>
+  <data name="256" xml:space="preserve">
+    <value>“The sixth sick sheik’s sixth sheep’s sick” is said to be the toughest tongue twister in English.</value>
+  </data>
+  <data name="257" xml:space="preserve">
+    <value>There are 336 dimples on a regulation US golf ball. In the UK its 330.</value>
+  </data>
+  <data name="258" xml:space="preserve">
+    <value>“Duff” is the decaying organic matter found on a forest floor.</value>
+  </data>
+  <data name="259" xml:space="preserve">
+    <value>The US has more personal computers than the next 7 countries combined.</value>
+  </data>
+  <data name="260" xml:space="preserve">
+    <value>Kuwait is about 60% male (highest in the world). Latvia is about 54% female (highest in the world).</value>
+  </data>
+  <data name="261" xml:space="preserve">
+    <value>The Hawaiian alphabet has only 12 letters.</value>
+  </data>
+  <data name="262" xml:space="preserve">
+    <value>In 10 minutes, a hurricane releases more energy than all the world’s nuclear weapons combined.</value>
+  </data>
+  <data name="263" xml:space="preserve">
+    <value>At the height of its power in 400 BC, the Greek city of Sparta had 25,000 citizens and 500,000 slaves.</value>
+  </data>
+  <data name="264" xml:space="preserve">
+    <value>Julius Caesar’s autograph is worth about $2,000,000.</value>
+  </data>
+  <data name="265" xml:space="preserve">
+    <value>People say “bless you” when you sneeze because your heart stops for a millisecond.</value>
+  </data>
+  <data name="266" xml:space="preserve">
+    <value>US gold coins used to say “In Gold We Trust”.</value>
+  </data>
+  <data name="267" xml:space="preserve">
+    <value>In “Silence of the Lambs”, Hannibal Lector (Anthony Hopkins) never blinks.</value>
+  </data>
+  <data name="268" xml:space="preserve">
+    <value>A shrimp’s heart is in its head.</value>
+  </data>
+  <data name="269" xml:space="preserve">
+    <value>In the 17th century, the value of pi was known to 35 decimal places. Today, to 1.2411 trillion.</value>
+  </data>
+  <data name="270" xml:space="preserve">
+    <value>Pearls melt in vinegar.</value>
+  </data>
+  <data name="271" xml:space="preserve">
+    <value>“Lassie” was played by a group of male dogs; the main one was named Pal.</value>
+  </data>
+  <data name="272" xml:space="preserve">
+    <value>Nepal is the only country that doesn’t have a rectangular flag.</value>
+  </data>
+  <data name="273" xml:space="preserve">
+    <value>Switzerland is the only country with a square flag.</value>
+  </data>
+  <data name="274" xml:space="preserve">
+    <value>Antarctica is the only continent on which no Lepidoptera have been found.</value>
+  </data>
+  <data name="275" xml:space="preserve">
+    <value>There are about 24,000 species of butterflies. The moths are even more numerous: about 140,000 species of them were counted all over the world.</value>
+  </data>
+  <data name="276" xml:space="preserve">
+    <value>Gabriel, Michael, and Lucifer are the only angels named in the Bible.</value>
+  </data>
+  <data name="277" xml:space="preserve">
+    <value>Johnny Appleseed planted apples so that people could use apple cider to make alcohol.</value>
+  </data>
+  <data name="278" xml:space="preserve">
+    <value>Abraham Lincoln’s ghost is said to haunt the White House.</value>
+  </data>
+  <data name="279" xml:space="preserve">
+    <value>God is not mentioned once in the book of Esther.</value>
+  </data>
+  <data name="280" xml:space="preserve">
+    <value>The odds of being born male are about 51.2%, according to census.</value>
+  </data>
+  <data name="281" xml:space="preserve">
+    <value>Scotland has more redheads than any other part of the world.</value>
+  </data>
+  <data name="282" xml:space="preserve">
+    <value>There is an average of 61,000 people airborne over the US at any given moment.</value>
+  </data>
+  <data name="283" xml:space="preserve">
+    <value>Prince Charles and Prince William never travel on the same airplane in case there is a crash.</value>
+  </data>
+  <data name="284" xml:space="preserve">
+    <value>The most popular first name in the world is Muhammad.</value>
+  </data>
+  <data name="285" xml:space="preserve">
+    <value>The surface of the Earth is about 60% water and 10% ice.</value>
+  </data>
+  <data name="286" xml:space="preserve">
+    <value>For every 230 cars that are made, 1 will be stolen.</value>
+  </data>
+  <data name="287" xml:space="preserve">
+    <value>Jimmy Carter was the first U.S. President to be born in a hospital.</value>
+  </data>
+  <data name="288" xml:space="preserve">
+    <value>Lightning strikes the earth about 8 million times a day.</value>
+  </data>
+  <data name="289" xml:space="preserve">
+    <value>Humans use a total of 72 different muscles in speech.</value>
+  </data>
+  <data name="290" xml:space="preserve">
+    <value>If you feed a seagull Alka-Seltzer, its stomach will explode.</value>
+  </data>
+  <data name="291" xml:space="preserve">
+    <value>The U.S. Post Office handles 43 percent of the world’s mail.</value>
+  </data>
+  <data name="292" xml:space="preserve">
+    <value>Venus and Uranus are the only planets that rotate opposite to the direction of their orbit.</value>
+  </data>
+  <data name="293" xml:space="preserve">
+    <value>John Adams, Thomas Jefferson, and James Monroe died on July 4th.</value>
+  </data>
+  <data name="294" xml:space="preserve">
+    <value>Baby Ruth candy bar was named after Grover Cleveland’s daughter, Ruth, not the baseball player.</value>
+  </data>
+  <data name="295" xml:space="preserve">
+    <value>Dolphins can look in different directions with each eye. They can sleep with one eye open.</value>
+  </data>
+  <data name="296" xml:space="preserve">
+    <value>The Falkland Isles (pop. about 2000) has over 700000 sheep (350 per person).</value>
+  </data>
+  <data name="297" xml:space="preserve">
+    <value>There are 41,806 different spoken languages in the world today.</value>
+  </data>
+  <data name="298" xml:space="preserve">
+    <value>The city of Venice stands on about 120 small islands.</value>
+  </data>
+  <data name="299" xml:space="preserve">
+    <value>The past-tense of the English word “dare” is “durst”</value>
+  </data>
+  <data name="300" xml:space="preserve">
+    <value>Beetles taste like apples, wasps like pine nuts, and worms like fried bacon.</value>
+  </data>
+  <data name="301" xml:space="preserve">
+    <value>Of all the words in the English language, the word 'set' has the most definitions!</value>
+  </data>
+  <data name="302" xml:space="preserve">
+    <value>In 1386, a pig in France was executed by public hanging for the murder of a child</value>
+  </data>
+  <data name="303" xml:space="preserve">
+    <value>A cockroach can live several weeks with its head cut off!</value>
+  </data>
+  <data name="304" xml:space="preserve">
+    <value>You can't kill yourself by holding your breath</value>
+  </data>
+  <data name="305" xml:space="preserve">
+    <value>Your heart beats over 100,000 times a day!</value>
+  </data>
+  <data name="306" xml:space="preserve">
+    <value>Your ribs move about 5 million times a year, every time you breathe!</value>
+  </data>
+  <data name="307" xml:space="preserve">
+    <value>One quarter of the bones in your body, are in your feet!</value>
+  </data>
+  <data name="308" xml:space="preserve">
+    <value>Like fingerprints, everyone's tongue print is different!</value>
+  </data>
+  <data name="309" xml:space="preserve">
+    <value>Present population of 5 billion plus people of the world is predicted to become 15 billion by 2080.</value>
+  </data>
+  <data name="310" xml:space="preserve">
+    <value>Honey is the only food that does not spoil.</value>
+  </data>
+  <data name="311" xml:space="preserve">
+    <value>Coca-Cola would be green if coloring weren’t added to it.</value>
+  </data>
+  <data name="312" xml:space="preserve">
+    <value>On average a hedgehog's heart beats 300 times a minute.</value>
+  </data>
+  <data name="313" xml:space="preserve">
+    <value>More people are killed each year from bees than from snakes.</value>
+  </data>
+  <data name="314" xml:space="preserve">
+    <value>More people are allergic to cow's milk than any other food.</value>
+  </data>
+  <data name="315" xml:space="preserve">
+    <value>The placement of a donkey's eyes in it’s' heads enables it to see all four feet at all times!</value>
+  </data>
+  <data name="316" xml:space="preserve">
+    <value>The six official languages of the U.N. are: English, French, Arabic, Chinese, Russian and Spanish.</value>
+  </data>
+  <data name="317" xml:space="preserve">
+    <value>It's against the law to burp, or sneeze in a church in Nebraska, USA.</value>
+  </data>
+  <data name="318" xml:space="preserve">
+    <value>You're born with 300 bones, but by the time you become an adult, you only have 206.</value>
+  </data>
+  <data name="319" xml:space="preserve">
+    <value>Some worms will eat themselves if they can't find any food!</value>
+  </data>
+  <data name="320" xml:space="preserve">
+    <value>The world’s oldest piece of chewing gum is 9000 years old!</value>
+  </data>
+  <data name="321" xml:space="preserve">
+    <value>The longest recorded flight of a chicken is 13 seconds</value>
+  </data>
+  <data name="322" xml:space="preserve">
+    <value>Owls are the only birds that can see the color blue.</value>
+  </data>
+  <data name="323" xml:space="preserve">
+    <value>The Bible, the world's best-selling book, is also the world's most shoplifted book.</value>
+  </data>
+  <data name="324" xml:space="preserve">
+    <value>Someone paid $14,000 for the bra worn by Marilyn Monroe in the film 'Some Like It Hot'.</value>
+  </data>
+  <data name="325" xml:space="preserve">
+    <value>Your tongue is the only muscle in your body that is attached at only one end.</value>
+  </data>
+  <data name="326" xml:space="preserve">
+    <value>More than 1,000 different languages are spoken on the continent of Africa.</value>
+  </data>
+  <data name="327" xml:space="preserve">
+    <value>Buckingham Palace in England has over six hundred rooms.</value>
+  </data>
+  <data name="328" xml:space="preserve">
+    <value>There was once an undersea post office in the Bahamas.</value>
+  </data>
+  <data name="329" xml:space="preserve">
+    <value>It's possible to lead a cow upstairs...but not downstairs.</value>
+  </data>
+  <data name="330" xml:space="preserve">
+    <value>No word in the English language rhymes with 'MONTH'.</value>
+  </data>
+  <data name="331" xml:space="preserve">
+    <value>Average life span of a major league baseball: 7 pitches.</value>
+  </data>
+  <data name="332" xml:space="preserve">
+    <value>'Go.' is the shortest complete sentence in the English language.</value>
+  </data>
+  <data name="333" xml:space="preserve">
+    <value>The 'pound' key on your keyboard () is called an octotroph. </value>
+  </data>
+  <data name="334" xml:space="preserve">
+    <value>The only domestic animal not mentioned in the Bible is the cat. </value>
+  </data>
+  <data name="335" xml:space="preserve">
+    <value>Table tennis balls have been known to travel off the paddle at speeds up to 160 km/hr. </value>
+  </data>
+  <data name="336" xml:space="preserve">
+    <value>Pepsi originally contained pepsin, thus the name. </value>
+  </data>
+  <data name="337" xml:space="preserve">
+    <value>The original story from 'Tales of 1001 Arabian Nights' begins, 'Aladdin was a little Chinese boy.'</value>
+  </data>
+  <data name="338" xml:space="preserve">
+    <value>Nutmeg is extremely poisonous if injected intravenously. </value>
+  </data>
+  <data name="339" xml:space="preserve">
+    <value>Honey is the only natural food that is made without destroying any kind of life.</value>
+  </data>
+  <data name="340" xml:space="preserve">
+    <value>The volume of the earth's moon is the same as the volume of the Pacific Ocean. </value>
+  </data>
+  <data name="341" xml:space="preserve">
+    <value>Cephalacaudal recapitulation is the reason our extremities develop faster than the rest of us. </value>
+  </data>
+  <data name="342" xml:space="preserve">
+    <value>Chinese Crested dogs can get acne. </value>
+  </data>
+  <data name="343" xml:space="preserve">
+    <value>Each year there is one ton of cement poured for each man woman and child in the world. </value>
+  </data>
+  <data name="344" xml:space="preserve">
+    <value>The house fly hums in the middle octave key of F. </value>
+  </data>
+  <data name="345" xml:space="preserve">
+    <value>The only capital letter in the Roman alphabet with exactly one end point is P. </value>
+  </data>
+  <data name="346" xml:space="preserve">
+    <value>The giant red star Betelgeuse has a diameter larger than that of the Earth's orbit around the sun. </value>
+  </data>
+  <data name="347" xml:space="preserve">
+    <value>Hummingbirds are the only animals that can fly backwards. </value>
+  </data>
+  <data name="348" xml:space="preserve">
+    <value>A cat's jaw cannot move sideways.</value>
+  </data>
+  <data name="349" xml:space="preserve">
+    <value>The human heart creates enough pressure when it pumps out to the body to squirt blood 30 feet.</value>
+  </data>
+  <data name="350" xml:space="preserve">
+    <value>Rubber bands last longer when refrigerated. </value>
+  </data>
+  <data name="351" xml:space="preserve">
+    <value>The average person's left hand does 56% of the typing. </value>
+  </data>
+  <data name="352" xml:space="preserve">
+    <value>The longest one-syllable word in the English language is 'screeched.'</value>
+  </data>
+  <data name="353" xml:space="preserve">
+    <value>All of the clocks in the movie 'Pulp Fiction' are stuck on 4:20.</value>
+  </data>
+  <data name="354" xml:space="preserve">
+    <value>'Dreamt' is the only English word that ends in the letters 'mt.'</value>
+  </data>
+  <data name="355" xml:space="preserve">
+    <value>Maine is the only state (in USA) whose name is just one syllable. </value>
+  </data>
+  <data name="356" xml:space="preserve">
+    <value>The giant squid has the largest eyes in the world. </value>
+  </data>
+  <data name="357" xml:space="preserve">
+    <value>In England, the Speaker of the House is not allowed to speak. </value>
+  </data>
+  <data name="358" xml:space="preserve">
+    <value>Mr. Rogers was an ordained minister. </value>
+  </data>
+  <data name="359" xml:space="preserve">
+    <value>A rat can last longer without water than a camel.</value>
+  </data>
+  <data name="360" xml:space="preserve">
+    <value>Your stomach has to produce a new layer of mucus every two weeks or it will digest itself.</value>
+  </data>
+  <data name="361" xml:space="preserve">
+    <value>There are no words in the dictionary that rhyme with orange, purple, silver and month.</value>
+  </data>
+  <data name="362" xml:space="preserve">
+    <value>The caterpillars of some Snout Moths (Pyralididae) live in or on water-plants.</value>
+  </data>
+  <data name="363" xml:space="preserve">
+    <value>The females of some moth species lack wings, all they can do to move is crawl.</value>
+  </data>
+  <data name="364" xml:space="preserve">
+    <value>If one places a tiny amount of liquor on a scorpion, it will instantly go mad and sting itself to death.</value>
+  </data>
+  <data name="365" xml:space="preserve">
+    <value>The first CD pressed in the US was Bruce Springsteen's 'Born in the USA.'</value>
+  </data>
+  <data name="366" xml:space="preserve">
+    <value>Sherlock Holmes NEVER said, 'Elementary, my dear Watson.</value>
+  </data>
+  <data name="367" xml:space="preserve">
+    <value>California consumes more bottled water than any other pro'uct.</value>
+  </data>
+  <data name="368" xml:space="preserve">
+    <value>California has issued 6 drivers licenses to people named 'Jesus Christ.'</value>
+  </data>
+  <data name="369" xml:space="preserve">
+    <value>In 1980, a Las Vegas hospital suspended workers for betting on when patients would die.</value>
+  </data>
+  <data name="370" xml:space="preserve">
+    <value>Nevada is the driest state in the U.S.. Each year it averages 7.5 inches (19 cm) of rain.</value>
+  </data>
+  <data name="371" xml:space="preserve">
+    <value>In Utah, it is illegal to swear in front of a dead person.</value>
+  </data>
+  <data name="372" xml:space="preserve">
+    <value>Salt Lake City, Utah has a law against carrying an unwrapped ukulele on the street.</value>
+  </data>
+  <data name="373" xml:space="preserve">
+    <value>Arizona was the last of the 48 adjoining continental states to enter the Union.</value>
+  </data>
+  <data name="374" xml:space="preserve">
+    <value>Wyoming was the first state to give women the right to vote in 1869.</value>
+  </data>
+  <data name="375" xml:space="preserve">
+    <value>Denver, Colorado lays claim to the invention of the cheeseburger.</value>
+  </data>
+  <data name="376" xml:space="preserve">
+    <value>The first license plate on a car in the United States was issued in Denver, Colorado in 1908.</value>
+  </data>
+  <data name="377" xml:space="preserve">
+    <value>The state of Maryland has no natural Lakes.</value>
+  </data>
+  <data name="378" xml:space="preserve">
+    <value>Illinois has the highest number of personalized license plates than any other state.</value>
+  </data>
+  <data name="379" xml:space="preserve">
+    <value>Residents of Houston, Texas lead the U.S. in eating out - approximately 4.6 times per week.</value>
+  </data>
+  <data name="380" xml:space="preserve">
+    <value>Laredo, Texas is the U.S.'s farthest inland port.</value>
+  </data>
+  <data name="381" xml:space="preserve">
+    <value>Rugby, North Dakota is the geographical center of North America.</value>
+  </data>
+  <data name="382" xml:space="preserve">
+    <value>Butte County, South Dakota is the geographical center of the U.S.</value>
+  </data>
+  <data name="383" xml:space="preserve">
+    <value>Louisiana's capital building is the tallest one of any U.S. state.</value>
+  </data>
+  <data name="384" xml:space="preserve">
+    <value>Hawaii is the only coffee producing state.</value>
+  </data>
+  <data name="385" xml:space="preserve">
+    <value>One in seven workers in Boston, Massachusetts walks to work.</value>
+  </data>
+  <data name="386" xml:space="preserve">
+    <value>The 'Dull Men's Hall of Fame' is located in Carroll, Wisconsin.</value>
+  </data>
+  <data name="387" xml:space="preserve">
+    <value>Gary, Indiana is the murder capital of the U.S. - probably the world.</value>
+  </data>
+  <data name="388" xml:space="preserve">
+    <value>Alabama was the first state to recognize Christmas as an official holiday.</value>
+  </data>
+  <data name="389" xml:space="preserve">
+    <value>The largest NFL stadium is the Pontiac Silverdome in Detroit, Michigan.</value>
+  </data>
+  <data name="390" xml:space="preserve">
+    <value>Michigan was the first state to have roadside picnic tables.</value>
+  </data>
+  <data name="391" xml:space="preserve">
+    <value>No matter where you stand in Michigan, you are never more than 85 miles from a Great Lake.</value>
+  </data>
+  <data name="392" xml:space="preserve">
+    <value>The official beverage of Ohio is tomato juice.</value>
+  </data>
+  <data name="393" xml:space="preserve">
+    <value>Georgia's state motto is 'Wisdom, Justice and Moderation.'</value>
+  </data>
+  <data name="394" xml:space="preserve">
+    <value>The U.S. city with the highest rate of lightning strikes per capita is Clearwater, Florida.</value>
+  </data>
+  <data name="395" xml:space="preserve">
+    <value>It's illegal to spit on the sidewalk in Norfolk, Virginia.</value>
+  </data>
+  <data name="396" xml:space="preserve">
+    <value>The first streetlights in America were installed in Philadelphia around 1757.</value>
+  </data>
+  <data name="397" xml:space="preserve">
+    <value>The highest point in Pennsylvania is lower than the lowest point in Colorado.</value>
+  </data>
+  <data name="398" xml:space="preserve">
+    <value>If you were to take a taxicab from New York City to Los Angeles, it would cost you $8,325.</value>
+  </data>
+  <data name="399" xml:space="preserve">
+    <value>The NY phone book had 22 Hitlers before WWII. The NY phone book had 0 Hitlers after WWII.</value>
+  </data>
+  <data name="400" xml:space="preserve">
+    <value>In New York State, it is illegal to but any alcohol on Sundays before noon.</value>
+  </data>
+  <data name="401" xml:space="preserve">
+    <value>There were 240 pedestrian fatalities in New York City in 1994.</value>
+  </data>
+  <data name="402" xml:space="preserve">
+    <value>Columbia University is the second largest landowner in New York City, after the Catholic Church.</value>
+  </data>
+  <data name="403" xml:space="preserve">
+    <value>Montpelier, Vermont is the only state capital without a McDonalds.</value>
+  </data>
+  <data name="404" xml:space="preserve">
+    <value>Maine is the only state that has borders with only one other state.</value>
+  </data>
+  <data name="405" xml:space="preserve">
+    <value>The first McDonald's restaurant in Canada was in Richmond, British Columbia.</value>
+  </data>
+  <data name="406" xml:space="preserve">
+    <value>In 1984, a Canadian farmer began renting advertising space on his cows.</value>
+  </data>
+  <data name="407" xml:space="preserve">
+    <value>There are more donut shops in Canada per capita than any other country.</value>
+  </data>
+  <data name="408" xml:space="preserve">
+    <value>0.3% of all road accidents in Canada involve a Moose.</value>
+  </data>
+  <data name="409" xml:space="preserve">
+    <value>In the great fire of London in 1666 half of London was burnt down but only 6 people were injured.</value>
+  </data>
+  <data name="410" xml:space="preserve">
+    <value>In Quebec, there is an old law that states margarine must be a different color than butter.</value>
+  </data>
+  <data name="411" xml:space="preserve">
+    <value>The largest taxi fleet in the world is found in Mexico City. The city boasts a fleet of over 60,000 taxis.</value>
+  </data>
+  <data name="412" xml:space="preserve">
+    <value>More than 90% of the Nicaraguan people are Roman Catholic.</value>
+  </data>
+  <data name="413" xml:space="preserve">
+    <value>Cuba is the only island in the Caribbean to have a railroad.</value>
+  </data>
+  <data name="414" xml:space="preserve">
+    <value>Jamaica has the most churches per square mile than any other country in the world.</value>
+  </data>
+  <data name="415" xml:space="preserve">
+    <value>The angel falls in Venezuela are nearly 20 times taller than Niagara Falls.</value>
+  </data>
+  <data name="416" xml:space="preserve">
+    <value>Canada is the only country not to win a gold medal in the summer Olympic games while hosting.</value>
+  </data>
+  <data name="417" xml:space="preserve">
+    <value>The Amazon is the world's largest river, 3,890 miles (6,259 km) long.</value>
+  </data>
+  <data name="418" xml:space="preserve">
+    <value>The town of Calma, Chile in the Atacama Desert has never had rain.</value>
+  </data>
+  <data name="419" xml:space="preserve">
+    <value>The people of France eat more cheese than any other country in the world.</value>
+  </data>
+  <data name="420" xml:space="preserve">
+    <value>King Louis XIX ruled France for 15 minutes.</value>
+  </data>
+  <data name="421" xml:space="preserve">
+    <value>The most common name in Italy is Mario Rossi.</value>
+  </data>
+  <data name="422" xml:space="preserve">
+    <value>Greece's national anthem has 158 verses.</value>
+  </data>
+  <data name="423" xml:space="preserve">
+    <value>In ancient Greece 'idiot' meant a private citizen or layman.</value>
+  </data>
+  <data name="424" xml:space="preserve">
+    <value>Bulgarians are known to be the biggest yogurt eaters in the world.</value>
+  </data>
+  <data name="425" xml:space="preserve">
+    <value>Czechs are the biggest consumers of beer per male in the world.</value>
+  </data>
+  <data name="426" xml:space="preserve">
+    <value>A Czech man, Jan Honza Zampa, holds the record for drinking one liter of beer in 4.11 seconds.</value>
+  </data>
+  <data name="427" xml:space="preserve">
+    <value>Netherlands is the only country with a national dog.</value>
+  </data>
+  <data name="428" xml:space="preserve">
+    <value>When we think of Big Ben in London, we think of the clock. Actually, it's the bell.</value>
+  </data>
+  <data name="429" xml:space="preserve">
+    <value>The Automated Teller Machine (ATM) was introduced in England in 1965.</value>
+  </data>
+  <data name="430" xml:space="preserve">
+    <value>Buckingham Palace has 602 rooms.</value>
+  </data>
+  <data name="431" xml:space="preserve">
+    <value>Icelanders consume more Coca-Cola per Capita than any other nation.</value>
+  </data>
+  <data name="432" xml:space="preserve">
+    <value>Until 1997, there were more pigs than people in Denmark.</value>
+  </data>
+  <data name="433" xml:space="preserve">
+    <value>There is a hotel in Sweden built entirely out of ice; it is rebuilt every year.</value>
+  </data>
+  <data name="434" xml:space="preserve">
+    <value>Sweden has the least number of murders annually.</value>
+  </data>
+  <data name="435" xml:space="preserve">
+    <value>Lithuania has the highest suicide rate in the world.</value>
+  </data>
+  <data name="436" xml:space="preserve">
+    <value>The country code for Russia is '007'.</value>
+  </data>
+  <data name="437" xml:space="preserve">
+    <value>Russians generally answer the phone by saying, 'I'm listening'.</value>
+  </data>
+  <data name="438" xml:space="preserve">
+    <value>The U.S. bought Alaska for 2 cents an acre from Russia.</value>
+  </data>
+  <data name="439" xml:space="preserve">
+    <value>1 in 5 of the world's doctors are Russian.</value>
+  </data>
+  <data name="440" xml:space="preserve">
+    <value>Antarctica is the only continent that does not have land areas below sea level.</value>
+  </data>
+  <data name="441" xml:space="preserve">
+    <value>The people of Israel consume more turkeys per capita than any other country.</value>
+  </data>
+  <data name="442" xml:space="preserve">
+    <value>Nepal is the only country that has a non-rectangular flag. It is also asymmetrical.</value>
+  </data>
+  <data name="443" xml:space="preserve">
+    <value>1,800 cigarettes are smoked per person each year in China.</value>
+  </data>
+  <data name="444" xml:space="preserve">
+    <value>Respiratory Disease is China's leading cause of death.</value>
+  </data>
+  <data name="445" xml:space="preserve">
+    <value>There are more than 40,000 characters in the Chinese script.</value>
+  </data>
+  <data name="446" xml:space="preserve">
+    <value>More people speak English in China than the United States.</value>
+  </data>
+  <data name="447" xml:space="preserve">
+    <value>The toothbrush was invented in China in 1498.</value>
+  </data>
+  <data name="448" xml:space="preserve">
+    <value>Mongolia is the largest landlocked country.</value>
+  </data>
+  <data name="449" xml:space="preserve">
+    <value>Vatican City is the smallest country in the world, with a population of 1000 and just 108.7 acres.</value>
+  </data>
+  <data name="450" xml:space="preserve">
+    <value>In Japan, watermelons are squared. It's easier to stack them that way.</value>
+  </data>
+  <data name="451" xml:space="preserve">
+    <value>98% of Japanese are cremated.</value>
+  </data>
+  <data name="452" xml:space="preserve">
+    <value>The number 'four' is considered unlucky in Japan because it is pronounced the same as 'death'.</value>
+  </data>
+  <data name="453" xml:space="preserve">
+    <value>The average Japanese household watches more than 10 hours of television a day.</value>
+  </data>
+  <data name="454" xml:space="preserve">
+    <value>The Philippines has about 7,100 islands, of which only about 460 are more than 1 square mile in area.</value>
+  </data>
+  <data name="455" xml:space="preserve">
+    <value>Yo-yos were used as weapons by warriors in the Philippines in the 16th century.</value>
+  </data>
+  <data name="456" xml:space="preserve">
+    <value>Australian soldiers used the song 'We're Off to See the Wizard' as a marching song in WWII.</value>
+  </data>
+  <data name="457" xml:space="preserve">
+    <value>The Australian $5 to $100 notes are made of plastic.</value>
+  </data>
+  <data name="458" xml:space="preserve">
+    <value>The Nullarbor Plain of Australia covers 100,000 square miles (160,900 km) without a tree.</value>
+  </data>
+  <data name="459" xml:space="preserve">
+    <value>Tasmania, Australia has the cleanest air in the inhabited world.</value>
+  </data>
+  <data name="460" xml:space="preserve">
+    <value>Greenland is the largest island in the world.</value>
+  </data>
+  <data name="461" xml:space="preserve">
+    <value>The first female guest host of 'Saturday Night Live' was Candace Bergen.</value>
+  </data>
+  <data name="462" xml:space="preserve">
+    <value>In 1933, Mickey Mouse, an animated cartoon character, received 800,000 fan letters.</value>
+  </data>
+  <data name="463" xml:space="preserve">
+    <value>The Simpsons is the longest running animated series on TV.</value>
+  </data>
+  <data name="464" xml:space="preserve">
+    <value>The first toilet ever seen on television was on 'Leave It to Beaver'.</value>
+  </data>
+  <data name="465" xml:space="preserve">
+    <value>The average human brain has about 100 billion nerve cells.</value>
+  </data>
+  <data name="466" xml:space="preserve">
+    <value>Nerve impulses to and from the brain travel as fast as 170 miles (274 km) per hour.</value>
+  </data>
+  <data name="467" xml:space="preserve">
+    <value>The thyroid cartilage is more commonly known as the adams apple.</value>
+  </data>
+  <data name="468" xml:space="preserve">
+    <value>Your stomach needs to produce a new layer of mucus every two weeks or it would digest itself.</value>
+  </data>
+  <data name="469" xml:space="preserve">
+    <value>The average life of a taste bud is 10 days.</value>
+  </data>
+  <data name="470" xml:space="preserve">
+    <value>The average cough comes out of your mouth at 60 miles (96.5 km) per hour.</value>
+  </data>
+  <data name="471" xml:space="preserve">
+    <value>Relative to size, the strongest muscle in the body is the tongue.</value>
+  </data>
+  <data name="472" xml:space="preserve">
+    <value>When you sneeze, all your bodily functions stop even your heart.</value>
+  </data>
+  <data name="473" xml:space="preserve">
+    <value>Children grow faster in the springtime.</value>
+  </data>
+  <data name="474" xml:space="preserve">
+    <value>It takes the stomach an hour to break down cows’ milk.</value>
+  </data>
+  <data name="475" xml:space="preserve">
+    <value>Blondes have more hair than dark-haired people do.</value>
+  </data>
+  <data name="476" xml:space="preserve">
+    <value>There are 10 human body parts that are only 3 letters long (eye hip arm leg ear toe jaw rib lip gum).</value>
+  </data>
+  <data name="477" xml:space="preserve">
+    <value>If you go blind in one eye you only lose about one fifth of your vision but all your sense of depth.</value>
+  </data>
+  <data name="478" xml:space="preserve">
+    <value>The average human head weighs about 8 pounds.</value>
+  </data>
+  <data name="479" xml:space="preserve">
+    <value>In the average lifetime, a person will walk the equivalent of 5 times around the equator.</value>
+  </data>
+  <data name="480" xml:space="preserve">
+    <value>An average human scalp has 100,000 hairs.</value>
+  </data>
+  <data name="481" xml:space="preserve">
+    <value>The average human blinks their eyes 6,205,000 times each year.</value>
+  </data>
+  <data name="482" xml:space="preserve">
+    <value>Your skull is made up of 29 different bones.</value>
+  </data>
+  <data name="483" xml:space="preserve">
+    <value>Ancient Egyptians shaved off their eyebrows to mourn the deaths of their cats.</value>
+  </data>
+  <data name="484" xml:space="preserve">
+    <value>Hair is made from the same substance as fingernails.</value>
+  </data>
+  <data name="485" xml:space="preserve">
+    <value>The surface of the human skin is 6.5 square feet (2m).</value>
+  </data>
+  <data name="486" xml:space="preserve">
+    <value>15 million blood cells are destroyed in the human body every second.</value>
+  </data>
+  <data name="487" xml:space="preserve">
+    <value>The pancreas produces Insulin.</value>
+  </data>
+  <data name="488" xml:space="preserve">
+    <value>The most sensitive cluster of nerves is at the base of the spine.</value>
+  </data>
+  <data name="489" xml:space="preserve">
+    <value>The human body is comprised of 80% water.</value>
+  </data>
+  <data name="490" xml:space="preserve">
+    <value>The average human will shed 40 pounds of skin in a lifetime.</value>
+  </data>
+  <data name="491" xml:space="preserve">
+    <value>Human thighbones are stronger than concrete.</value>
+  </data>
+  <data name="492" xml:space="preserve">
+    <value>There are 45 miles of nerves in the skin of a human being.</value>
+  </data>
+  <data name="493" xml:space="preserve">
+    <value>Canadian researchers have found that Einstein's brain was 15% wider than normal.</value>
+  </data>
+  <data name="494" xml:space="preserve">
+    <value>While in Alcatraz, Al Capone was inmate 85.</value>
+  </data>
+  <data name="495" xml:space="preserve">
+    <value>Astronaut Neil Armstrong first stepped on the moon with his left foot.</value>
+  </data>
+  <data name="496" xml:space="preserve">
+    <value>Jim Morrison, of the 60's rock group The Doors, was the first rock star to be arrested on stage.</value>
+  </data>
+  <data name="497" xml:space="preserve">
+    <value>Frank Lloyd Wright's son invented Lincoln Logs.</value>
+  </data>
+  <data name="498" xml:space="preserve">
+    <value>Peter Falk, who played 'Columbo,' has a glass eye.</value>
+  </data>
+  <data name="499" xml:space="preserve">
+    <value>Barbie's full name is 'Babara Millicent Roberts.'</value>
+  </data>
+  <data name="500" xml:space="preserve">
+    <value>The mother of Michael Nesmith of 'The Monkees' invented whiteout.</value>
+  </data>
+  <data name="501" xml:space="preserve">
+    <value>Isaac Asimov is the only author to have a book in every Dewey-decimal category.</value>
+  </data>
+  <data name="502" xml:space="preserve">
+    <value>Shakespeare invented the word 'assassination' and 'bump.'</value>
+  </data>
+  <data name="503" xml:space="preserve">
+    <value>It is believed that Leonardo Da Vinci invented the scissors.</value>
+  </data>
+  <data name="504" xml:space="preserve">
+    <value>Adolf Hitler's mother seriously considered having an abortion but was talked out of it by her doctor.</value>
+  </data>
+  <data name="505" xml:space="preserve">
+    <value>The shortest British monarch was Charles I, who was 4 feet 9 inches.</value>
+  </data>
+  <data name="506" xml:space="preserve">
+    <value>Tina Turner's real name is Annie Mae Bullock.</value>
+  </data>
+  <data name="507" xml:space="preserve">
+    <value>Beethoven dipped his head in cold water before he composed.</value>
+  </data>
+  <data name="508" xml:space="preserve">
+    <value>President John F Kennedy could read 4 newspapers in 20 minutes.</value>
+  </data>
+  <data name="509" xml:space="preserve">
+    <value>Bob Dylan's real name is Robert Zimmerman.</value>
+  </data>
+  <data name="510" xml:space="preserve">
+    <value>Sigmund Freud had a morbid fear of ferns.</value>
+  </data>
+  <data name="511" xml:space="preserve">
+    <value>Anne Boleyn, Queen Elizabeth I's mother, had six fingers on one hand.</value>
+  </data>
+  <data name="512" xml:space="preserve">
+    <value>Orville Wright was involved in the first aircraft accident. His passenger, a Frenchman, was killed.</value>
+  </data>
+  <data name="513" xml:space="preserve">
+    <value>The sound of E.T. walking was made by someone squishing her hands in jelly.</value>
+  </data>
+  <data name="514" xml:space="preserve">
+    <value>Cher's last name was 'Sarkissian.' She changed it because no one could pronounce it.</value>
+  </data>
+  <data name="515" xml:space="preserve">
+    <value>Sugar was first added to chewing gum in 1869 by a dentist, William Semple.</value>
+  </data>
+  <data name="516" xml:space="preserve">
+    <value>Paper was invented early in the second century by Chinese eunuch.</value>
+  </data>
+  <data name="517" xml:space="preserve">
+    <value>Sir Isaac Newton was only 23 years old when he discovered the law of universal gravitation.</value>
+  </data>
+  <data name="518" xml:space="preserve">
+    <value>Hannibal had only one eye after getting a disease while attacking Rome.</value>
+  </data>
+  <data name="519" xml:space="preserve">
+    <value>A blue whales heart only beats nine times per minute.</value>
+  </data>
+  <data name="520" xml:space="preserve">
+    <value>A cat uses its whiskers to determine if a space is too small to squeeze through.</value>
+  </data>
+  <data name="521" xml:space="preserve">
+    <value>A chameleon's tongue is twice the length of its body.</value>
+  </data>
+  <data name="522" xml:space="preserve">
+    <value>A crocodiles tongue is attached to the roof of its mouth.</value>
+  </data>
+  <data name="523" xml:space="preserve">
+    <value>Rodent's teeth never stop growing.</value>
+  </data>
+  <data name="524" xml:space="preserve">
+    <value>A shark can detect one part of blood in 100 million parts of water.</value>
+  </data>
+  <data name="525" xml:space="preserve">
+    <value>The penguin is the only bird that can swim but can't fly.</value>
+  </data>
+  <data name="526" xml:space="preserve">
+    <value>The cheetah is the only cat that can't retract its claws.</value>
+  </data>
+  <data name="527" xml:space="preserve">
+    <value>A lion's roar can be heard from five miles away.</value>
+  </data>
+  <data name="528" xml:space="preserve">
+    <value>Emus and kangaroos can't walk backwards.</value>
+  </data>
+  <data name="529" xml:space="preserve">
+    <value>Cats have over 100 vocal sounds; dogs only have 10.</value>
+  </data>
+  <data name="530" xml:space="preserve">
+    <value>A mole can dig a tunnel 300 feet (91 m) long in just one night.</value>
+  </data>
+  <data name="531" xml:space="preserve">
+    <value>Insects outnumber humans 100,000,000 to one.</value>
+  </data>
+  <data name="532" xml:space="preserve">
+    <value>Sharkskin has tiny tooth-like scales all over.</value>
+  </data>
+  <data name="533" xml:space="preserve">
+    <value>Chameleons can move their eyes in two directions at the same time.</value>
+  </data>
+  <data name="534" xml:space="preserve">
+    <value>Koalas never drink water. They get fluids from the eucalyptus leaves they eat.</value>
+  </data>
+  <data name="535" xml:space="preserve">
+    <value>A cow gives nearly 200,000 glasses of milk in her lifetime.</value>
+  </data>
+  <data name="536" xml:space="preserve">
+    <value>When sharks take a bite, their eyes roll back and their teeth jut out.</value>
+  </data>
+  <data name="537" xml:space="preserve">
+    <value>Camels chew in a figure 8 pattern.</value>
+  </data>
+  <data name="538" xml:space="preserve">
+    <value>Proportional to their size, cats have the largest eyes of all mammals.</value>
+  </data>
+  <data name="539" xml:space="preserve">
+    <value>Sailfish can leap out of the water and into the air at a speed of 50 miles (81 km) per hour.</value>
+  </data>
+  <data name="540" xml:space="preserve">
+    <value>The catfish has the most taste buds of all animals, having over 27,000 of them.</value>
+  </data>
+  <data name="541" xml:space="preserve">
+    <value>A skunk's smell can be detected by a human a mile away.</value>
+  </data>
+  <data name="542" xml:space="preserve">
+    <value>A lion in the wild usually makes no more than 20 kills a year.</value>
+  </data>
+  <data name="543" xml:space="preserve">
+    <value>In space, astronauts cannot cry, because there is no gravity, so the tears can't flow.</value>
+  </data>
+  <data name="544" xml:space="preserve">
+    <value>The state of Florida is bigger than England.</value>
+  </data>
+  <data name="545" xml:space="preserve">
+    <value>One in every 4 Americans has appeared on television.</value>
+  </data>
+  <data name="546" xml:space="preserve">
+    <value>The average American/Canadian will eat about 11.9 pounds of cereal per year!</value>
+  </data>
+  <data name="547" xml:space="preserve">
+    <value>There are over 58 million dogs in the US</value>
+  </data>
+  <data name="548" xml:space="preserve">
+    <value>Dogs and cats consume over $11 billion worth of pet food a year</value>
+  </data>
+  <data name="549" xml:space="preserve">
+    <value>Baby robins eat 14 feet of earthworms every day</value>
+  </data>
+  <data name="550" xml:space="preserve">
+    <value>In Raiders of the Lost Ark there is a wall carving of R2-D2 and C-3P0 behind the ark</value>
+  </data>
+  <data name="551" xml:space="preserve">
+    <value>'I' is the most spoken word in the English language</value>
+  </data>
+  <data name="552" xml:space="preserve">
+    <value>'You' is the second most spoken English word</value>
+  </data>
+  <data name="553" xml:space="preserve">
+    <value>Spain leads the world in cork production</value>
+  </data>
+  <data name="554" xml:space="preserve">
+    <value>There are 1,792 steps in the Eiffel Tower</value>
+  </data>
+  <data name="555" xml:space="preserve">
+    <value>There is a city in Norway called 'Hell'</value>
+  </data>
+  <data name="556" xml:space="preserve">
+    <value>The human feet perspire half a pint of fluid a day</value>
+  </data>
+  <data name="557" xml:space="preserve">
+    <value>An Olympic gold medal must contain 92.5 percent silver</value>
+  </data>
+  <data name="558" xml:space="preserve">
+    <value>There are 240 dots on an arcade Pac-Man game</value>
+  </data>
+  <data name="559" xml:space="preserve">
+    <value>The San Francisco Cable cars are the only mobile National Monuments</value>
+  </data>
+  <data name="560" xml:space="preserve">
+    <value>Lee Harvey Oswald's cadaver tag sold at an auction for $6,600 in 1992.</value>
+  </data>
+  <data name="561" xml:space="preserve">
+    <value>A pound of houseflies contains more protein than a pound of beef</value>
+  </data>
+  <data name="562" xml:space="preserve">
+    <value>The average American works 24,000 hours in their lifetime just to pay their taxes</value>
+  </data>
+  <data name="563" xml:space="preserve">
+    <value>40% of all people who come to a party in your home snoop in your medicine cabinet</value>
+  </data>
+  <data name="564" xml:space="preserve">
+    <value>Non-dairy creamer is flammable.</value>
+  </data>
+  <data name="565" xml:space="preserve">
+    <value>Pinocchio is Italian for 'pine head.'</value>
+  </data>
+  <data name="566" xml:space="preserve">
+    <value>There are more than 10 million bricks in the Empire State Building.</value>
+  </data>
+  <data name="567" xml:space="preserve">
+    <value>In 1889, the Queen of Italy, Margherita Savoy, ordered the first pizza delivery.</value>
+  </data>
+  <data name="568" xml:space="preserve">
+    <value>You can buy eel flavored ice cream in Japan.</value>
+  </data>
+  <data name="569" xml:space="preserve">
+    <value>It's considered rude to write in red ink in Portugal.</value>
+  </data>
+  <data name="570" xml:space="preserve">
+    <value>Although the bobcat is rarely seen, it is the most common wildcat in North America</value>
+  </data>
+  <data name="571" xml:space="preserve">
+    <value>A cat's tail contains nearly 10 percent of all the bones in its body.</value>
+  </data>
+  <data name="572" xml:space="preserve">
+    <value>Gecko feet have millions of tiny hairs that stick to surfaces with a special chemical bond and let them climb walls and hang on by just one toe.</value>
+  </data>
+  <data name="573" xml:space="preserve">
+    <value>The term 'astronaut' comes from Greek words that mean 'star' and 'sailor.'</value>
+  </data>
+  <data name="574" xml:space="preserve">
+    <value>The calcium in our bones and the iron in our blood come from ancient explosions of giant stars.</value>
+  </data>
+  <data name="575" xml:space="preserve">
+    <value>The Nile crocodile can hold its breath underwater for up to 2 hours while waiting for prey.</value>
+  </data>
+  <data name="576" xml:space="preserve">
+    <value>Jellyfish, or jellies as scientists call them, are not fish. They have no brain, no heart, and no bones.</value>
+  </data>
+  <data name="577" xml:space="preserve">
+    <value>The Chinese giant salamander can grow to be 6 feet (1.8 m) long, making it the largest salamander in the world.</value>
+  </data>
+  <data name="578" xml:space="preserve">
+    <value>People reportedly prefer blue toothbrushes over red ones.</value>
+  </data>
+  <data name="579" xml:space="preserve">
+    <value>Some people used to believe that kissing a donkey could relieve a toothache.</value>
+  </data>
+  <data name="580" xml:space="preserve">
+    <value>Scientists say that the best time to take a nap is between 1 p.m. and 2:30 p.m. because that's when a dip in body temperature makes us feel sleepy.</value>
+  </data>
+  <data name="581" xml:space="preserve">
+    <value>Because the speed of Earth's rotation changes over time, a day in the age of dinosaurs was just 23 hours long.</value>
+  </data>
+  <data name="582" xml:space="preserve">
+    <value>Hummingbirds' wings can beat 200 times a second.</value>
+  </data>
+  <data name="583" xml:space="preserve">
+    <value>There are more than 1,200 water parks in North America.</value>
+  </data>
+  <data name="584" xml:space="preserve">
+    <value>A seahorse can move its eyes in opposite directions—all the better to scan the water for food and predators.</value>
+  </data>
+  <data name="585" xml:space="preserve">
+    <value>To cook an egg, a sidewalk needs to be 158°F.</value>
+  </data>
+  <data name="586" xml:space="preserve">
+    <value>A group of jellyfish is not a herd, or a school, or a flock; it's called a smack.</value>
+  </data>
+  <data name="587" xml:space="preserve">
+    <value>It would take 100 Earths, lined up end-to-end, to stretch across the face of the sun.</value>
+  </data>
+  <data name="588" xml:space="preserve">
+    <value>Less than 1 percent of Antarctica is ice-free.</value>
+  </data>
+  <data name="589" xml:space="preserve">
+    <value>The highest wave ever surfed was as tall as a 10-story building.</value>
+  </data>
+  <data name="590" xml:space="preserve">
+    <value>The Beagle Brigade, used in 21 international airports in the U.S., keeps a yearly average of 75,000 illegal items out of the country.</value>
+  </data>
+  <data name="591" xml:space="preserve">
+    <value>Some apples can weigh about as much as a half gallon (2L) of milk.</value>
+  </data>
+  <data name="592" xml:space="preserve">
+    <value>Corn is grown on every continent except Antarctica.</value>
+  </data>
+  <data name="593" xml:space="preserve">
+    <value>Unlike most fish, seahorses are covered in bony plates instead of scales.</value>
+  </data>
+  <data name="594" xml:space="preserve">
+    <value>You lose about 50 to 100 hairs a day.</value>
+  </data>
+  <data name="595" xml:space="preserve">
+    <value>'Armadillo' is a Spanish word meaning 'little armored one.'</value>
+  </data>
+  <data name="596" xml:space="preserve">
+    <value>The world's smallest fruit—a utricle—is the size of a small ant.</value>
+  </data>
+  <data name="597" xml:space="preserve">
+    <value>New Jersey has the highest concentration of shopping malls.</value>
+  </data>
+  <data name="598" xml:space="preserve">
+    <value>Komodo dragons can devour 5 pounds (2 kg) of meat in less than a minute. Any extra fat they eat is stored in their tails.</value>
+  </data>
+  <data name="599" xml:space="preserve">
+    <value>Not all moons are dry and dusty like ours. Jupiter's Europa has a liquid ocean under an icy crust.</value>
+  </data>
+  <data name="600" xml:space="preserve">
+    <value>Some Viking chiefs were buried inside their ships.</value>
+  </data>
+  <data name="601" xml:space="preserve">
+    <value>At any moment, clouds cover about 60 percent of Earth.</value>
+  </data>
+  <data name="602" xml:space="preserve">
+    <value>All apes laugh when they are tickled.</value>
+  </data>
+  <data name="603" xml:space="preserve">
+    <value>Spotted hyenas can digest skin and bones.</value>
+  </data>
+  <data name="604" xml:space="preserve">
+    <value>The quills on African porcupines are as long as 3 pencils.</value>
+  </data>
+  <data name="605" xml:space="preserve">
+    <value>Scientists believe that people who dream about an activity will actually get better at it in real life.</value>
+  </data>
+  <data name="606" xml:space="preserve">
+    <value>Your hair contains traces of gold.</value>
+  </data>
+  <data name="607" xml:space="preserve">
+    <value>In Japan, instead of a 'man in the moon,' people see a 'rabbit in the moon.'</value>
+  </data>
+  <data name="608" xml:space="preserve">
+    <value>Depending on the speed of the wind, some clouds travel up to 100 miles per hour (160 kph) across the sky.</value>
+  </data>
+  <data name="609" xml:space="preserve">
+    <value>Naked mole rats are sometimes called sand puppies.</value>
+  </data>
+  <data name="610" xml:space="preserve">
+    <value>Opal has been discovered on Mars.</value>
+  </data>
+  <data name="611" xml:space="preserve">
+    <value>George Washington loved exploring caves.</value>
+  </data>
+  <data name="612" xml:space="preserve">
+    <value>It takes a gallon and a half of milk (5.7 L) to make a gallon (3.8 L) of ice cream.</value>
+  </data>
+  <data name="613" xml:space="preserve">
+    <value>The TV remote is the dirtiest item in a typical household, hospital, or hotel room.</value>
+  </data>
+  <data name="614" xml:space="preserve">
+    <value>The Hercules beetle can grow big enough to cover an adult human hand.</value>
+  </data>
+  <data name="615" xml:space="preserve">
+    <value>The finest quality emeralds are more valuable than diamonds.</value>
+  </data>
+  <data name="616" xml:space="preserve">
+    <value>Hearing is the fastest human sense. A person can recognize a sound in as little as 0.05 seconds.</value>
+  </data>
+  <data name="617" xml:space="preserve">
+    <value>It is impossible to lick your elbow (busted)</value>
+  </data>
+  <data name="618" xml:space="preserve">
+    <value>A crocodile can't stick it's tongue out.</value>
+  </data>
+  <data name="619" xml:space="preserve">
+    <value>A shrimp's heart is in it's head.</value>
+  </data>
+  <data name="620" xml:space="preserve">
+    <value>People say 'Bless you' when you sneeze because when you sneeze,your heart stops for a mili-second.</value>
+  </data>
+  <data name="621" xml:space="preserve">
+    <value>In a study of 200,000 ostriches over a period of 80 years, no one reported a single case where an ostrich buried its head in the sand.</value>
+  </data>
+  <data name="622" xml:space="preserve">
+    <value>A pregnant goldfish is called a twit. (busted?)</value>
+  </data>
+  <data name="623" xml:space="preserve">
+    <value>Rats and horses can't vomit.</value>
+  </data>
+  <data name="624" xml:space="preserve">
+    <value>If you sneeze too hard, you can fracture a rib.</value>
+  </data>
+  <data name="625" xml:space="preserve">
+    <value>If you try to suppress a sneeze, you can rupture a blood vessel in your head or neck and die.</value>
+  </data>
+  <data name="626" xml:space="preserve">
+    <value>If you keep your eyes open by force when you sneeze, you might pop an eyeball out.</value>
+  </data>
+  <data name="627" xml:space="preserve">
+    <value>23% of all photocopier faults worldwide are caused by people sitting on them and photocopying their butts.</value>
+  </data>
+  <data name="628" xml:space="preserve">
+    <value>In the course of an average lifetime you will, while sleeping, eat 70 assorted insects and 10 spiders.</value>
+  </data>
+  <data name="629" xml:space="preserve">
+    <value>Over 75% of people who read this will try to lick their elbow.</value>
+  </data>
+  <data name="630" xml:space="preserve">
+    <value>A crocodile can't move its tongue and cannot chew. Its digestive juices are so strong that it can digest a steel nail.</value>
+  </data>
+  <data name="631" xml:space="preserve">
+    <value>Money notes are not made from paper, they are made mostly from a special blend of cotton and linen. In 1932, when a shortage of cash occurred in Tenino, Washington, USA, notes were made out of wood for a brief period.</value>
+  </data>
+  <data name="632" xml:space="preserve">
+    <value>The Grammy Awards were introduced to counter the threat of rock music. In the late 1950s, a group of record executives were alarmed by the explosive success of rock ‘n roll, considering it a threat to 'quality' music.</value>
+  </data>
+  <data name="633" xml:space="preserve">
+    <value>Tea is said to have been discovered in 2737 BC by a Chinese emperor when some tea leaves accidentally blew into a pot of boiling water. The tea bag was introduced in 1908 by Thomas Sullivan of New York.</value>
+  </data>
+  <data name="634" xml:space="preserve">
+    <value>Over the last 150 years the average height of people in industrialised nations has increased 10 cm (about 4 inches). In the 19th century, American men were the tallest in the world, averaging 1,71m (5'6'). Today, the average height for American men is 1,75m (5'7'), compared to 1,77 (5'8') for Swedes, and 1,78 (5'8.5') for the Dutch. The tallest nation in the world is the Watusis of Burundi.</value>
+  </data>
+  <data name="635" xml:space="preserve">
+    <value>In 1955 the richest woman in the world was Mrs Hetty Green Wilks, who left an estate of $95 million in a will that was found in a tin box with four pieces of soap. Queen Elizabeth of Britain and Queen Beatrix of the Netherlands count under the 10 wealthiest women in the world.</value>
+  </data>
+  <data name="636" xml:space="preserve">
+    <value>Joseph Niepce developed the world's first photographic image in 1827. Thomas Edison and W K L Dickson introduced the film camera in 1894. But the first projection of an image on a screen was made by a German priest. In 1646, Athanasius Kircher used a candle or oil lamp to project hand-painted images onto a white screen.</value>
+  </data>
+  <data name="637" xml:space="preserve">
+    <value>In 1935 a writer named Dudley Nichols refused to accept the Oscar for his movie The Informer because the Writers Guild was on strike against the movie studios. In 1970 George C. Scott refused the Best Actor Oscar for Patton. In 1972 Marlon Brando refused the Oscar for his role in The Godfather.</value>
+  </data>
+  <data name="638" xml:space="preserve">
+    <value>The system of democracy was introduced 2 500 years ago in Athens, Greece. The oldest existing governing body operates in Althing in Iceland. It was established in 930 AD.</value>
+  </data>
+  <data name="639" xml:space="preserve">
+    <value>A person can live without food for about a month, but only about a week without water. If the amount of water in your body is reduced by just 1%, you'll feel thirsty. If it's reduced by 10%, you'll die.</value>
+  </data>
+  <data name="640" xml:space="preserve">
+    <value>According to a study by the Economic Research Service, 27% of all food production in Western nations ends up in garbage cans. Yet, 1,2 billion people are underfed - the same number of people who are overweight.</value>
+  </data>
+  <data name="641" xml:space="preserve">
+    <value>Camels are called 'ships of the desert' because of the way they move, not because of their transport capabilities. A Dromedary camel has one hump and a Bactrian camel two humps. The humps are used as fat storage. Thus, an undernourished camel will not have a hump.</value>
+  </data>
+  <data name="642" xml:space="preserve">
+    <value>In the Durango desert, in Mexico, there's a creepy spot called the 'Zone of Silence.' You can't pick up clear TV or radio signals. And locals say fireballs sometimes appear in the sky.</value>
+  </data>
+  <data name="643" xml:space="preserve">
+    <value>Ethernet is a registered trademark of Xerox, Unix is a registered trademark of AT&amp;T.</value>
+  </data>
+  <data name="644" xml:space="preserve">
+    <value>Bill Gates' first business was Traff-O-Data, a company that created machines which recorded the number of cars passing a given point on a road.</value>
+  </data>
+  <data name="645" xml:space="preserve">
+    <value>Uranus' orbital axis is tilted at 90 degrees.</value>
+  </data>
+  <data name="646" xml:space="preserve">
+    <value>The final resting-place for Dr. Eugene Shoemaker - the Moon. The famed U.S. Geological Survey astronomer, trained the Apollo astronauts about craters, but never made it into space. Mr. Shoemaker had wanted to be an astronaut but was rejected because of a medical problem. His ashes were placed on board the Lunar Prospector spacecraft before it was launched on January 6, 1998. NASA crashed the probe into a crater on the moon in an attempt to learn if there is water on the moon.</value>
+  </data>
+  <data name="647" xml:space="preserve">
+    <value>Outside the USA, Ireland is the largest software producing country in the world.</value>
+  </data>
+  <data name="648" xml:space="preserve">
+    <value>The first fossilized specimen of Australopithecus afarenisis was named Lucy after the paleontologists' favorite song 'Lucy in the Sky with Diamonds,' by the Beatles.</value>
+  </data>
+  <data name="649" xml:space="preserve">
+    <value>Figlet, an ASCII font converter program, stands for Frank, Ian and Glenn's LETters.</value>
+  </data>
+  <data name="650" xml:space="preserve">
+    <value>Every human spent about half an hour as a single cell.</value>
+  </data>
+  <data name="651" xml:space="preserve">
+    <value>Every year about 98% of atoms in your body are replaced.</value>
+  </data>
+  <data name="652" xml:space="preserve">
+    <value>Hot water is heavier than cold.</value>
+  </data>
+  <data name="653" xml:space="preserve">
+    <value>Plutonium - first weighed on August 20th, 1942, by University of Chicago scientists Glenn Seaborg and his colleagues - was the first man-made element.</value>
+  </data>
+  <data name="654" xml:space="preserve">
+    <value>If you went out into space, you would explode before you suffocated because there's no air pressure.</value>
+  </data>
+  <data name="655" xml:space="preserve">
+    <value>The radioactive substance, Americanium - 241 is used in many smoke detectors.</value>
+  </data>
+  <data name="656" xml:space="preserve">
+    <value>The original IBM-PCs, that had hard drives, referred to the hard drives as Winchester drives. This is due to the fact that the original Winchester drive had a model number of 3030. This is, of course, a Winchester firearm.</value>
+  </data>
+  <data name="657" xml:space="preserve">
+    <value>Sound travels 15 times faster through steel than through the air.</value>
+  </data>
+  <data name="658" xml:space="preserve">
+    <value>On average, half of all false teeth have some form of radioactivity.</value>
+  </data>
+  <data name="659" xml:space="preserve">
+    <value>Only one satellite has been ever been destroyed by a meteor: the European Space Agency's Olympus in 1993.</value>
+  </data>
+  <data name="660" xml:space="preserve">
+    <value>Starch is used as a binder in the production of paper. It is the use of a starch coating that controls ink penetration when printing. Cheaper papers do not use as much starch, and this is why your elbows get black when you are leaning over your morning paper.</value>
+  </data>
+  <data name="661" xml:space="preserve">
+    <value>Sterling silver is not pure silver. Because pure silver is too soft to be used in most tableware it is mixed with copper in the proportion of 92.5 percent silver to 7.5 percent copper.</value>
+  </data>
+  <data name="662" xml:space="preserve">
+    <value>A ball of glass will bounce higher than a ball of rubber. A ball of solid steel will bounce higher than one made entirely of glass.</value>
+  </data>
+  <data name="663" xml:space="preserve">
+    <value>A chip of silicon a quarter-inch square has the capacity of the original 1949 ENIAC computer, which occupied a city block.</value>
+  </data>
+  <data name="664" xml:space="preserve">
+    <value>An ordinary TNT bomb involves atomic reaction, and could be called an atomic bomb. What we call an A-bomb involves nuclear reactions and should be called a nuclear bomb.</value>
+  </data>
+  <data name="665" xml:space="preserve">
+    <value>At a glance, the Celsius scale makes more sense than the Fahrenheit scale for temperature measuring. But its creator, Anders Celsius, was an oddball scientist. When he first developed his scale, he made freezing 100 degrees and boiling 0 degrees, or upside down. No one dared point this out to him, so fellow scientists waited until Celsius died to change the scale.</value>
+  </data>
+  <data name="666" xml:space="preserve">
+    <value>At a jet plane's speed of 1,000 km (620mi) per hour, the length of the plane becomes one atom shorter than its original length.</value>
+  </data>
+  <data name="667" xml:space="preserve">
+    <value>The first full moon to occur on the winter solstice, Dec. 22, commonly called the first day of winter, happened in 1999. Since a full moon on the winter solstice occurred in conjunction with a lunar perigee (point in the moon's orbit that is closest to Earth), the moon appeared about 14% larger than it does at apogee (the point in it's elliptical orbit that is farthest from the Earth). Since the Earth is also several million miles closer to the sun at that time of the year than in the summer, sunlight striking the moon was about 7% stronger making it brighter. Also, this was the closest perigee of the Moon of the year since the moon's orbit is constantly deforming. In places where the weather was clear and there was a snow cover, even car headlights were superfluous.</value>
+  </data>
+  <data name="668" xml:space="preserve">
+    <value>According to security equipment specialists, security systems that utilize motion detectors won't function properly if walls and floors are too hot. When an infrared beam is used in a motion detector, it will pick up a person's body temperature of 98.6 degrees compared to the cooler walls and floor. If the room is too hot, the motion detector won't register a change in the radiated heat of that person's body when it enters the room and breaks the infrared beam. Your home's safety might be compromised if you turn your air conditioning off or set the thermostat too high while on summer vacation.</value>
+  </data>
+  <data name="669" xml:space="preserve">
+    <value>Western Electric successfully brought sound to motion pictures and introduced systems of mobile communications which culminated in the cellular telephone.</value>
+  </data>
+  <data name="670" xml:space="preserve">
+    <value>On December 23, 1947, Bell Telephone Laboratories in Murray Hill, N.J., held a secret demonstration of the transistor which marked the foundation of modern electronics.</value>
+  </data>
+  <data name="671" xml:space="preserve">
+    <value>The wick of a trick candle has small amounts of magnesium in them. When you light the candle, you are also lighting the magnesium. When someone tries to blow out the flame, the magnesium inside the wick continues to burn and, in just a split second (or two or three), relights the wick. </value>
+  </data>
+  <data name="672" xml:space="preserve">
+    <value>Ostriches are often not taken seriously. They can run faster than horses, and the males can roar like lions.</value>
+  </data>
+  <data name="673" xml:space="preserve">
+    <value>Seals used for their fur get extremely sick when taken aboard ships.</value>
+  </data>
+  <data name="674" xml:space="preserve">
+    <value>Sloths take two weeks to digest their food.</value>
+  </data>
+  <data name="675" xml:space="preserve">
+    <value>Guinea pigs and rabbits can't sweat.</value>
+  </data>
+  <data name="676" xml:space="preserve">
+    <value>The pet food company Ralston Purina recently introduced, from its subsidiary Purina Philippines, power chicken feed designed to help roosters build muscles for cockfighting, which is popular in many areas of the world.</value>
+  </data>
+  <data name="677" xml:space="preserve">
+    <value>According to the Wall Street Journal, the cockfighting market is huge: The Philippines has five million roosters used for exactly that.</value>
+  </data>
+  <data name="678" xml:space="preserve">
+    <value>Sharks and rays are the only animals known to man that don't get cancer. Scientists believe this has something to do with the fact that they don't have bones, but cartilage.</value>
+  </data>
+  <data name="679" xml:space="preserve">
+    <value>The porpoise is second to man as the most intelligent animal on the planet.</value>
+  </data>
+  <data name="680" xml:space="preserve">
+    <value>Young beavers stay with their parents for the first two years of their lives before going out on their own.</value>
+  </data>
+  <data name="681" xml:space="preserve">
+    <value>Skunks can accurately spray their smelly fluid as far as ten feet.</value>
+  </data>
+  <data name="682" xml:space="preserve">
+    <value>Deer can't eat hay.</value>
+  </data>
+  <data name="683" xml:space="preserve">
+    <value>Gopher snakes in Arizona are not poisonous, but when frightened they may hiss and shake their tails like rattlesnakes.</value>
+  </data>
+  <data name="684" xml:space="preserve">
+    <value>On average, dogs have better eyesight than humans, although not as colorful.</value>
+  </data>
+  <data name="685" xml:space="preserve">
+    <value>The duckbill platypus can store as many as six hundred worms in the pouches of its cheeks.</value>
+  </data>
+  <data name="686" xml:space="preserve">
+    <value>The lifespan of a squirrel is about nine years.</value>
+  </data>
+  <data name="687" xml:space="preserve">
+    <value>North American oysters do not make pearls of any value.</value>
+  </data>
+  <data name="688" xml:space="preserve">
+    <value>Human birth control pills work on gorillas.</value>
+  </data>
+  <data name="689" xml:space="preserve">
+    <value>Many sharks lay eggs, but hammerheads give birth to live babies that look like very small duplicates of their parents. Young hammerheads are usually born headfirst, with the tip of their hammer-shaped head folded backward to make them more streamlined for birth.</value>
+  </data>
+  <data name="690" xml:space="preserve">
+    <value>Gorillas sleep as much as fourteen hours per day.</value>
+  </data>
+  <data name="691" xml:space="preserve">
+    <value>A biological reserve has been made for golden toads because they are so rare.</value>
+  </data>
+  <data name="692" xml:space="preserve">
+    <value>There are more than fifty different kinds of kangaroos.</value>
+  </data>
+  <data name="693" xml:space="preserve">
+    <value>Jellyfish like salt water. A rainy season often reduces the jellyfish population by putting more fresh water into normally salty waters where they live.</value>
+  </data>
+  <data name="694" xml:space="preserve">
+    <value>The female lion does ninety percent of the hunting.</value>
+  </data>
+  <data name="695" xml:space="preserve">
+    <value>The odds of seeing three albino deer at once are one in seventy-nine billion, yet one man in Boulder Junction, Wisconsin, took a picture of three albino deer in the woods.</value>
+  </data>
+  <data name="696" xml:space="preserve">
+    <value>A group of twelve or more cows is called a flink.</value>
+  </data>
+  <data name="697" xml:space="preserve">
+    <value>Cats often rub up against people and furniture to lay their scent and mark their territory. They do it this way, as opposed to the way dogs do it, because they have scent glands in their faces.</value>
+  </data>
+  <data name="698" xml:space="preserve">
+    <value>Cats sleep up to eighteen hours a day, but never quite as deep as humans. Instead, they fall asleep quickly and wake up intermittently to check to see if their environment is still safe.</value>
+  </data>
+  <data name="699" xml:space="preserve">
+    <value>Catnip, or Nepeta cataria, is an herb with nepetalactone in it. Many think that when cats inhale nepetalactone, it affects hormones that arouse sexual feelings, or at least alter their brain functioning to make them feel 'high.' Catnip was originally made, using nepetalactone as a natural bug repellant, but roaming cats would rip up the plants before they could be put to their intended task.</value>
+  </data>
+  <data name="700" xml:space="preserve">
+    <value>The nematode Caenorhabditis elegans ages the equivalent of five human years for every day they live, so they usually die after about fourteen days. When stressed, though, the worm goes into a comatose state that can last for two or more months. The human equivalent would be to sleep for about two hundred years.</value>
+  </data>
+  <data name="701" xml:space="preserve">
+    <value>You can tell the sex of a horse by its teeth. Most males have 40, females have 36.</value>
+  </data>
+  <data name="702" xml:space="preserve">
+    <value>The 57 on Heinz ketchup bottle represents the   varieties of pickle the company once had.</value>
+  </data>
+  <data name="703" xml:space="preserve">
+    <value>Your stomach produces a new layer of mucus every   two weeks - otherwise it will digest itself.</value>
+  </data>
+  <data name="704" xml:space="preserve">
+    <value>The Declaration of Independence was written on hemp paper.</value>
+  </data>
+  <data name="705" xml:space="preserve">
+    <value>A raisin dropped in a glass of fresh champagne   will bounce up and down continuously from the bottom of the glass to the top.</value>
+  </data>
+  <data name="706" xml:space="preserve">
+    <value>Susan Lucci is the daughter of Phyllis Diller.</value>
+  </data>
+  <data name="707" xml:space="preserve">
+    <value>315 entries in Webster's 1996 Dictionary were misspelled.</value>
+  </data>
+  <data name="708" xml:space="preserve">
+    <value>During the chariot scene in 'Ben Hur' a small red   car can be seen in the distance.</value>
+  </data>
+  <data name="709" xml:space="preserve">
+    <value>Warren Beatty and Shirley MacLaine are brother and sister.</value>
+  </data>
+  <data name="710" xml:space="preserve">
+    <value>Orcas (killer whales) kill sharks by torpedoing up   into the shark's stomach from underneath, causing the shark to explode.</value>
+  </data>
+  <data name="711" xml:space="preserve">
+    <value>Donald Duck comics were banned from Finland because he doesn't wear any pants. </value>
+  </data>
+  <data name="712" xml:space="preserve">
+    <value>Upper and lower case letters are named 'upper' and 'lower' because in the time when all original print had to be set in individual letters, the 'upper case' letters were stored in the case on top of the case that stored the smaller, 'lower case' letters.</value>
+  </data>
+  <data name="713" xml:space="preserve">
+    <value>Leonardo da Vinci could write with one hand and draw with the other at the same time.</value>
+  </data>
+  <data name="714" xml:space="preserve">
+    <value>The name Wendy was made up for the book Peter Pan, there was never a recorded Wendy before!</value>
+  </data>
+  <data name="715" xml:space="preserve">
+    <value>There are no words in the dictionary that rhyme with: orange, purple, and silver!</value>
+  </data>
+  <data name="716" xml:space="preserve">
+    <value>A tiny amount of liquor on a scorpion will make it instantly go mad and sting itself to death.</value>
+  </data>
+  <data name="717" xml:space="preserve">
+    <value>The mask used by Michael Myers in the original 'Halloween' was a Captain Kirk mask painted white.</value>
+  </data>
+  <data name="718" xml:space="preserve">
+    <value>If you have three quarters, four dimes, and four pennies, you have $1.19. You also have the largest amount of money in coins without being able to make change for a dollar.</value>
+  </data>
+  <data name="719" xml:space="preserve">
+    <value>Celery has negative calories! It takes more calories to eat a piece of celery than the celery has in it to begin with. It's the same with apples!</value>
+  </data>
+  <data name="720" xml:space="preserve">
+    <value>Chewing gum while peeling onions will keep you from crying!</value>
+  </data>
+  <data name="721" xml:space="preserve">
+    <value>The glue on Israeli postage stamps is certified kosher.</value>
+  </data>
+  <data name="722" xml:space="preserve">
+    <value>Guinness Book of Records holds the record for   being the book most often stolen from Public Libraries.</value>
+  </data>
+  <data name="723" xml:space="preserve">
+    <value>Astronauts are not allowed to eat beans before   they go into space because passing wind in a space suit damages them.</value>
+  </data>
+  <data name="724" xml:space="preserve">
+    <value>The word 'queue' is the only word in the English language that is still pronounced the same way when the last four letters are removed.</value>
+  </data>
+  <data name="725" xml:space="preserve">
+    <value>Beetles taste like apples, wasps like pine nuts, and worms  like fried bacon. </value>
+  </data>
+  <data name="726" xml:space="preserve">
+    <value>Of all the words in the English language, the word ’set’ has the most definitions! </value>
+  </data>
+  <data name="727" xml:space="preserve">
+    <value>In 1386, a pig in France was executed by public hanging for the murder of a child </value>
+  </data>
+  <data name="728" xml:space="preserve">
+    <value>You can’t kill yourself by holding your breath</value>
+  </data>
+  <data name="729" xml:space="preserve">
+    <value>It’s against the law to have a pet dog in Iceland.</value>
+  </data>
+  <data name="730" xml:space="preserve">
+    <value>Horatio Nelson, one of England’s most illustrious admirals was throughout his life, never able to find a cure for his sea-sickness.</value>
+  </data>
+  <data name="731" xml:space="preserve">
+    <value>Your ribs move about 5 million times a year, everytime you breathe!</value>
+  </data>
+  <data name="732" xml:space="preserve">
+    <value>The elephant is the only mammal  that can’t jump! </value>
+  </data>
+  <data name="733" xml:space="preserve">
+    <value>One quarter of the bones in your body, are in your feet! </value>
+  </data>
+  <data name="734" xml:space="preserve">
+    <value>The first known transfusion of blood was performed as early as 1667, when Jean-Baptiste, transfused two pints of blood from a sheep to a young man </value>
+  </data>
+  <data name="735" xml:space="preserve">
+    <value>The present population of 5 billion plus people of the world is predicted to become 15 billion by 2080.</value>
+  </data>
+  <data name="736" xml:space="preserve">
+    <value>Honey is the only food that does not spoil. Honey found in the tombs of Egyptian pharaohs has been tasted by archaeologists and found edible. </value>
+  </data>
+  <data name="737" xml:space="preserve">
+    <value>Coca-Cola would be green if colouring weren’t added to it.</value>
+  </data>
+  <data name="738" xml:space="preserve">
+    <value>On average a hedgehog’s  heart beats 300 times a minute.</value>
+  </data>
+  <data name="739" xml:space="preserve">
+    <value>More people are killed each year from bees than from snakes. </value>
+  </data>
+  <data name="740" xml:space="preserve">
+    <value>More people are allergic to cow’s milk than any other food.</value>
+  </data>
+  <data name="741" xml:space="preserve">
+    <value>The placement of a donkey’s eyes in its’ heads enables it to see all four feet at all times!</value>
+  </data>
+  <data name="742" xml:space="preserve">
+    <value>The six official languages of the United Nations are: English, French, Arabic, Chinese, Russian and Spanish.</value>
+  </data>
+  <data name="743" xml:space="preserve">
+    <value>It’s against the law to burp, or sneeze in a church in Nebraska, USA.</value>
+  </data>
+  <data name="744" xml:space="preserve">
+    <value>You’re born with 300 bones, but by the time you become an adult, you only have 206.</value>
+  </data>
+  <data name="745" xml:space="preserve">
+    <value>Some worms will eat themselves if they can’t find any food!</value>
+  </data>
+  <data name="746" xml:space="preserve">
+    <value>Dolphins sleep with one eye open!</value>
+  </data>
+  <data name="747" xml:space="preserve">
+    <value>It is impossible to sneeze with your eyes open</value>
+  </data>
+  <data name="748" xml:space="preserve">
+    <value>The worlds oldest piece of chewing gum is 9000 years old!</value>
+  </data>
+  <data name="749" xml:space="preserve">
+    <value>The longest recorded flight  of a chicken is 13 seconds </value>
+  </data>
+  <data name="750" xml:space="preserve">
+    <value>Queen Elizabeth I regarded herself as a paragon of cleanliness. She declared that she bathed once every three months, whether she needed it or not</value>
+  </data>
+  <data name="751" xml:space="preserve">
+    <value>Slugs have 4 noses.</value>
+  </data>
+  <data name="752" xml:space="preserve">
+    <value>Owls are the only birds who can see the colour blue.</value>
+  </data>
+  <data name="753" xml:space="preserve">
+    <value>An ostrich’s eye is bigger than its brain</value>
+  </data>
+  <data name="754" xml:space="preserve">
+    <value>If you yelled for 8 years, 7 months and 6 days you would have produced enough sound energy to heat one cup of coffee.</value>
+  </data>
+  <data name="755" xml:space="preserve">
+    <value>If you farted consistently for 6 years and 9 months, enough gas is produced to create the energy of an atomic bomb.</value>
+  </data>
+  <data name="756" xml:space="preserve">
+    <value>The human heart! creates enough pressure when it pumps out to the body to squirt blood 30 feet.</value>
+  </data>
+  <data name="757" xml:space="preserve">
+    <value>A pig's orgasm lasts 30 minutes.</value>
+  </data>
+  <data name="758" xml:space="preserve">
+    <value>A cockroach will live for weeks without its head before it starves to death</value>
+  </data>
+  <data name="759" xml:space="preserve">
+    <value>Banging your head against a wall uses 150 calories a hour</value>
+  </data>
+  <data name="760" xml:space="preserve">
+    <value>The male praying mantis cannot copulate while its head is attached to its body. The female initiates sex by ripping the male's head off.</value>
+  </data>
+  <data name="761" xml:space="preserve">
+    <value>The catfish has over 27,000 taste buds.</value>
+  </data>
+  <data name="762" xml:space="preserve">
+    <value>The strongest muscle in the body is the tongue.</value>
+  </data>
+  <data name="763" xml:space="preserve">
+    <value>A cat's urine glows under a black light.</value>
+  </data>
+  <data name="764" xml:space="preserve">
+    <value>Polar bears are left-handed.</value>
+  </data>
+  <data name="765" xml:space="preserve">
+    <value>In France, it is legal to marry a dead person (Contributed by Loes - 16 May 2015)</value>
+  </data>
+  <data name="766" xml:space="preserve">
+    <value>In 1963, major league baseball pitcher Gaylord Perry remarked, 'They'll put a man on the moon before I hit a home run.' On July 20, 1969, an hour after Neil Armstrong set foot on the surface of the moon, Perry hit is first, and only, home run while playing for the San Francisco Giants.</value>
+  </data>
+  <data name="767" xml:space="preserve">
+    <value>Retired basketball sensation Michael Jordan makes more money from Nike each year than all the Nike factory workers in Malaysia combined.</value>
+  </data>
+  <data name="768" xml:space="preserve">
+    <value>The Olympic flag's colors are always red, black, blue, green, and yellow rings on a field of white. This is because at least one of those colors appears on the flag of every nation on the planet.</value>
+  </data>
+  <data name="769" xml:space="preserve">
+    <value>The average lifespan of a major league baseball: 7 pitches.</value>
+  </data>
+  <data name="770" xml:space="preserve">
+    <value>Dueling is legal is Paraguay as long as both parties are registered blood donors.</value>
+  </data>
+  <data name="771" xml:space="preserve">
+    <value>All major league baseball umpires must wear black underwear while on the job in case their pants split.</value>
+  </data>
+  <data name="772" xml:space="preserve">
+    <value>In 1920, Babe Ruth out-homered very American League team.</value>
+  </data>
+  <data name="773" xml:space="preserve">
+    <value>Babe Ruth wore a cabbage leaf under his cap to keep his head cool. He changed it every two innings.</value>
+  </data>
+  <data name="774" xml:space="preserve">
+    <value>Every year 56,000,000 people attend major league baseball games.</value>
+  </data>
+  <data name="775" xml:space="preserve">
+    <value>In 18th century England, gambling dens employed someone whose job was to swallow the dice if there was a police raid.</value>
+  </data>
+  <data name="776" xml:space="preserve">
+    <value>A Costa Rican worker who makes baseballs earns about $2,750 annually. The average American pro baseball player earns $2,377,000 per year.</value>
+  </data>
+  <data name="777" xml:space="preserve">
+    <value>There are 336 dimples on a regulation golf ball.</value>
+  </data>
+  <data name="778" xml:space="preserve">
+    <value>The moon is moving away from the Earth at a tiny, although measurable, rate every year. 85 million years ago it was orbiting the Earth about 35 feet from the planet's surface.</value>
+  </data>
+  <data name="779" xml:space="preserve">
+    <value>The star Antares is 60,000 times larger than our sun. If our sun were the size of a softball, the star Antares would be as large as a house.</value>
+  </data>
+  <data name="780" xml:space="preserve">
+    <value>In Calama, a town in the Atacama Desert of Chile, it has never rained.</value>
+  </data>
+  <data name="781" xml:space="preserve">
+    <value>At any given time, there are 1,800 thunderstorms in progress over the earth's atmosphere.</value>
+  </data>
+  <data name="782" xml:space="preserve">
+    <value>Erosion at the base of Niagara Falls has caused the falls to recede approximately seven miles over the past 10,000 years.</value>
+  </data>
+  <data name="783" xml:space="preserve">
+    <value>A ten-year-old mattress weighs double what it did when it was new due to debris that it absorbs over time. That debris includes dust mites (their droppings and decaying bodies), mold, millions of dead skin cells, dandruff, animal and human hair, secretions, excretions, lint, pollen, dust, soil, sand, and a lot of perspiration, which the average person loses at a rate of a quart a day. Good night!</value>
+  </data>
+  <data name="784" xml:space="preserve">
+    <value>Every year 16 million gallons of oil runs off pavement into streams, rivers, and eventually, oceans in the United States. This is more oil than was spilled by the Exxon Valdez.</value>
+  </data>
+  <data name="785" xml:space="preserve">
+    <value>In space, astronauts cannot cry because there is no gravity and tears can't flow.</value>
+  </data>
+  <data name="786" xml:space="preserve">
+    <value>A 'jiffy' is an actual unit of time: 1/100th of a second.</value>
+  </data>
+  <data name="787" xml:space="preserve">
+    <value>If you have three quarters, four dimes, and four pennies you have $1.19. you also have the largest possible amount of money in coins without being able to make change for a dollar.</value>
+  </data>
+  <data name="788" xml:space="preserve">
+    <value>Recycling one glass jar saves enough energy to operate a television for three hours.</value>
+  </data>
+  <data name="789" xml:space="preserve">
+    <value>The main library at Indiana University sinks over an inch a year. When it was designed engineers failed to take into account the weight of all the books that would occupy the building.</value>
+  </data>
+  <data name="790" xml:space="preserve">
+    <value>A category three hurricane releases more energy in ten minutes that all the world's nuclear weapons combined.</value>
+  </data>
+  <data name="791" xml:space="preserve">
+    <value>There is enough fuel in full jumbo jet tank to drive an average car four times around the world.</value>
+  </data>
+  <data name="792" xml:space="preserve">
+    <value>An average of 100 people choke to death on ballpoint pens every year.</value>
+  </data>
+  <data name="793" xml:space="preserve">
+    <value>Antarctica is the only continent without reptiles or snakes.</value>
+  </data>
+  <data name="794" xml:space="preserve">
+    <value>The cruise liner Queen Elizabeth 2 moves only six inches for each gallon of fuel it burns.</value>
+  </data>
+  <data name="795" xml:space="preserve">
+    <value>San Francisco cable cars are the only National Monuments that can move.</value>
+  </data>
+  <data name="796" xml:space="preserve">
+    <value>February 1865 is the only month in recorded history not to have a full moon.</value>
+  </data>
+  <data name="797" xml:space="preserve">
+    <value>Nutmeg is extremely poisonous if injected intravenously.</value>
+  </data>
+  <data name="798" xml:space="preserve">
+    <value>A rainbow can be seen only in the morning or late afternoon. It can occur only when the sun is 40 degrees or less above the horizon.</value>
+  </data>
+  <data name="799" xml:space="preserve">
+    <value>Lightning strikes the Earth 100 times every second.</value>
+  </data>
+  <data name="800" xml:space="preserve">
+    <value>La Paz, Bolivia has an average annual temperature below 50 degrees Fahrenheit. However, it has never recorded a zero-degree temperature. Same for Stanley, the Falkland Islands, and Punta Arenas, Chile.</value>
+  </data>
+  <data name="801" xml:space="preserve">
+    <value>There are over 87,000 Americans on waiting lists for organ transplants.</value>
+  </data>
+  <data name="802" xml:space="preserve">
+    <value>Catsup leaves the bottle at a rate of 25 miles per year.</value>
+  </data>
+  <data name="803" xml:space="preserve">
+    <value>Toxic house plants poison more children than household chemicals do.</value>
+  </data>
+  <data name="804" xml:space="preserve">
+    <value>You are more likely to be infected by flesh-eating bacteria than you are to be struck by lightning.</value>
+  </data>
+  <data name="805" xml:space="preserve">
+    <value>According to Genesis 1:20-22, the chicken came before the egg.</value>
+  </data>
+  <data name="806" xml:space="preserve">
+    <value>It is physically impossible for you to lick your elbow.</value>
+  </data>
+  <data name="807" xml:space="preserve">
+    <value>It takes approximately 12 hours for food to entirely digest.</value>
+  </data>
+  <data name="808" xml:space="preserve">
+    <value>A sneeze travels out your mouth at over 100 m.p.h.</value>
+  </data>
+  <data name="809" xml:space="preserve">
+    <value>Women blink nearly twice as often as men.</value>
+  </data>
+  <data name="810" xml:space="preserve">
+    <value>Most of the dust particles in your house are dead skin.</value>
+  </data>
+  <data name="811" xml:space="preserve">
+    <value>There is a company that will (for $14,000) take your ashes and compress them into a synthetic diamond to be set in jewelry for a loved one.</value>
+  </data>
+  <data name="812" xml:space="preserve">
+    <value>There are more living organisms on the skin of a single human being than there are human beings on the surface of the earth.</value>
+  </data>
+  <data name="813" xml:space="preserve">
+    <value>The longest bout of hiccups lasted nearly 69 years.</value>
+  </data>
+  <data name="814" xml:space="preserve">
+    <value>Babies is born without kneecaps. They appear between the ages of 2 and 6.</value>
+  </data>
+  <data name="815" xml:space="preserve">
+    <value>Men can read smaller print than women. Women can hear better.</value>
+  </data>
+  <data name="816" xml:space="preserve">
+    <value>If you sneeze too hard you can fracture a rib. If you try to suppress a sneeze you can rupture a blood vessel in your head or neck and die. If you keep your eyes open by force they can pop out.</value>
+  </data>
+  <data name="817" xml:space="preserve">
+    <value>A kiss stimulates 29 muscles and chemicals that cause relaxation. Women seem to like light and frequent kisses while men like them more strenuous.</value>
+  </data>
+  <data name="818" xml:space="preserve">
+    <value>Almost everyone who reads this will try to lick their elbow.</value>
+  </data>
+  <data name="819" xml:space="preserve">
+    <value>According to Chinese acupuncture, there is a point on the head that you can press to control your appetite. It is located in the hollow just in front of the flap of the ear.</value>
+  </data>
+  <data name="820" xml:space="preserve">
+    <value>In a recent survey, Americans revealed that banana was their favorite smell.</value>
+  </data>
+  <data name="821" xml:space="preserve">
+    <value>When opossums are 'playing 'possum', they are not playing. They actually pass out from sheer terror.</value>
+  </data>
+  <data name="822" xml:space="preserve">
+    <value>The two-foot long bird called a Kea that lives in New Zealand likes to eat the strips of rubber around car windows.</value>
+  </data>
+  <data name="823" xml:space="preserve">
+    <value>Snakes are true carnivores as they eat nothing but other animals. They do not eat any type of plant material.</value>
+  </data>
+  <data name="824" xml:space="preserve">
+    <value>The Weddell seal can travel underwater for seven miles without surfacing for air.</value>
+  </data>
+  <data name="825" xml:space="preserve">
+    <value>According to tests made at the Institute for the Study of Animal Problems in Washington, D.C., dogs and cats, like people, are either right-handed or left-handed—that is, they favor either their right or left paws.</value>
+  </data>
+  <data name="826" xml:space="preserve">
+    <value>An iguana can stay under water for 28 minutes.</value>
+  </data>
+  <data name="827" xml:space="preserve">
+    <value>Crocodiles and alligators are surprisingly fast on land. Although they are rapid, they are not agile, so if you ever find yourself chased by one, run in a zigzag line. You'll lose him or her every time.</value>
+  </data>
+  <data name="828" xml:space="preserve">
+    <value>Horses can't vomit.</value>
+  </data>
+  <data name="829" xml:space="preserve">
+    <value>Penguins can jump as high as six feet in the air.</value>
+  </data>
+  <data name="830" xml:space="preserve">
+    <value>An eagle can kill a young deer and fly carrying it.</value>
+  </data>
+  <data name="831" xml:space="preserve">
+    <value>It was discovered on a space mission that a frog can throw up. The frog vomits its entire stomach out so the organ is dangling out of its mouth. Then the frog uses its forearms to dig out all of the stomach's contents and swallows the stomach back down again.</value>
+  </data>
+  <data name="832" xml:space="preserve">
+    <value>The leg bones of a bat are so thin that no bat can walk.</value>
+  </data>
+  <data name="833" xml:space="preserve">
+    <value>The katydid bug hears through holes in its hind legs.</value>
+  </data>
+  <data name="834" xml:space="preserve">
+    <value>Ostriches stick their heads in the sand to look for water.</value>
+  </data>
+  <data name="835" xml:space="preserve">
+    <value>In a study of 200,000 ostriches over a period of 80 years there were no reported cases of an ostrich burying its head in the sand.</value>
+  </data>
+  <data name="836" xml:space="preserve">
+    <value>It's possible to lead a cow upstairs, but not downstairs.</value>
+  </data>
+  <data name="837" xml:space="preserve">
+    <value>A shrimp's heart is in its head.</value>
+  </data>
+  <data name="838" xml:space="preserve">
+    <value>The chicken is one of the few things that man eats before it's born and after it's dead.</value>
+  </data>
+  <data name="839" xml:space="preserve">
+    <value>Some dogs can predict when a child will have an epileptic seizure and even protect the child from injury. They're not trained to do this, they simply learn to respond after observing at least one attack.</value>
+  </data>
+  <data name="840" xml:space="preserve">
+    <value>There are only three types of snakes on the island of Tasmania and all three are deadly poisonous.</value>
+  </data>
+  <data name="841" xml:space="preserve">
+    <value>Dolphins sleep with one eye open.</value>
+  </data>
+  <data name="842" xml:space="preserve">
+    <value>A goldfish has a memory span of three seconds.</value>
+  </data>
+  <data name="843" xml:space="preserve">
+    <value>Emus and kangaroos cannot walk backwards and are on the Australian coat of arms for that reason.</value>
+  </data>
+  <data name="844" xml:space="preserve">
+    <value>The jellyfish is 95% water.</value>
+  </data>
+  <data name="845" xml:space="preserve">
+    <value>A hippo can open its mouth wide enough to fit a 4 foot tall child inside.</value>
+  </data>
+  <data name="846" xml:space="preserve">
+    <value>Most elephants weigh less than the tongue of the blue whale.</value>
+  </data>
+  <data name="847" xml:space="preserve">
+    <value>The world's youngest parents were age 8 and 9. They lived in China and had their child in 1910.</value>
+  </data>
+  <data name="848" xml:space="preserve">
+    <value>Kotex was first manufactured as bandages, during WWI.</value>
+  </data>
+  <data name="849" xml:space="preserve">
+    <value>In the 16th and 17th centuries in the country of Turkey, anyone caught drinking coffee was put to death.</value>
+  </data>
+  <data name="850" xml:space="preserve">
+    <value>Abraham Lincoln's dog, Fido, was also assassinated.</value>
+  </data>
+  <data name="851" xml:space="preserve">
+    <value>In England, the Speaker of the House is not allowed to speak.</value>
+  </data>
+  <data name="852" xml:space="preserve">
+    <value>About 3,000 years ago, most Egyptians died by the time they were 30.</value>
+  </data>
+  <data name="853" xml:space="preserve">
+    <value>The first known contraceptive was crocodile dung, used by Egyptians in 2000 B.C.</value>
+  </data>
+  <data name="854" xml:space="preserve">
+    <value>If a statue in the park of a person on a horse has both front legs in the air, the person died in battle. If the horse has one front leg in the air, the person died as a result of wounds received in battle. If the horse has all four legs on the ground, the person died of natural causes.</value>
+  </data>
+  <data name="855" xml:space="preserve">
+    <value>The youngest pope was 11 years old.</value>
+  </data>
+  <data name="856" xml:space="preserve">
+    <value>Richard Versalle, a tenor performing at New York's Metropolitan Opera House, suffered a heart attack and fell 10 feet from a ladder to the stage just after singing the line, 'You can only live so long.'</value>
+  </data>
+  <data name="857" xml:space="preserve">
+    <value>60.7 percent of eligible voters participated in the 2004 presidential election, the highest percentage in 36 years. However, more than 78 million did not vote. This means President Bush was re-elected by less than 31% of all eligible voters in the United States.</value>
+  </data>
+  <data name="858" xml:space="preserve">
+    <value>David Bowie used to think he was being stalked by someone who is dressed like a giant pink rabbit. Bowie noticed the fan at several recent concerts, but became alarmed when he got on a plane and the bunny was also on board.</value>
+  </data>
+  <data name="859" xml:space="preserve">
+    <value>Dr. Samuel A. Mudd was the physician who set the leg of Lincoln's assassin, John Wilkes Booth, and whose shame created the expression for ignominy: 'His name is Mudd.'</value>
+  </data>
+  <data name="860" xml:space="preserve">
+    <value>Wayne's World was filmed in two weeks.</value>
+  </data>
+  <data name="861" xml:space="preserve">
+    <value>The first Fords had engines made by Dodge.</value>
+  </data>
+  <data name="862" xml:space="preserve">
+    <value>In Ancient Egypt , priests plucked every hair from their bodies, including their eyebrows and eyelashes.</value>
+  </data>
+  <data name="863" xml:space="preserve">
+    <value>More than 8,100 US troops are still listed as missing in action from the Korean War.</value>
+  </data>
+  <data name="864" xml:space="preserve">
+    <value>As of January 1, 2004, the population of the United States increases by one person every 12 seconds. There is a birth every eight seconds, an immigrant is added every 25 seconds, and a death every 13 seconds.</value>
+  </data>
+  <data name="865" xml:space="preserve">
+    <value>Inn the great fire of 1666, half of London was burnt down but only six people were injured.</value>
+  </data>
+  <data name="866" xml:space="preserve">
+    <value>Toto was paid $125 per week while filming The Wizard of Oz.</value>
+  </data>
+  <data name="867" xml:space="preserve">
+    <value>The only member of the band ZZ Top without a beard has the last name Beard.</value>
+  </data>
+  <data name="868" xml:space="preserve">
+    <value>In Egypt around 1500 B.C., a shaved head was considered the ultimate in feminine beauty. Egyptian women removed every hair from their heads with special gold tweezers and polished their scalps to a high sheen with buffing cloths.</value>
+  </data>
+  <data name="869" xml:space="preserve">
+    <value>George Lumley, aged 104, married Mary Dunning, aged 10, in Nortallerton, England on August 25, 1783. She was the great-great granddaughter of the woman who'd broken her engagement to Lumley, eighty years before.</value>
+  </data>
+  <data name="870" xml:space="preserve">
+    <value>In Elizabethan England, the spoon was so novel and prized that people carried their own folding spoons to banquets.</value>
+  </data>
+  <data name="871" xml:space="preserve">
+    <value>It costs more to buy a new car today in the United States than it cost Christopher Columbus to equip and undertake three voyages to and from the New World.</value>
+  </data>
+  <data name="872" xml:space="preserve">
+    <value>Ancient Egyptians slept on pillows made of stone.</value>
+  </data>
+  <data name="873" xml:space="preserve">
+    <value>Millie the White House dog earned more than four times as President Bush in 1991.</value>
+  </data>
+  <data name="874" xml:space="preserve">
+    <value>A law passed in Nebraska in 1912 set hard rules of the road. Drivers in the country at night were required to stop every 150 yards, send up a skyrocket, then wait eight minutes for the road to clear before proceeding cautiously, all the while blowing their horn and shooting off flares.</value>
+  </data>
+  <data name="875" xml:space="preserve">
+    <value>Louis XIV of France really was as unpleasant a fellow as he's been depicted. In 1674, when he was visiting a school at Clermont, he heard from the school's authorities that one of the children, a nine- year-old Irish lad named Francis Seldon, had made a pun about the king's bald head.Louis was furious. He had a secret warrant drawn up for the child's arrest, and young Seldon was thrown into solitary confinement in the Bastille. His parents, members of one of Europe's richest merchant families, were told simply that the child had disappeared. Days turned to months, months to years, and Louis himself passed away. But Francis spent sixty-nine years 'in the hole' for making fun of the king's baldness.</value>
+  </data>
+  <data name="876" xml:space="preserve">
+    <value>The microwave was invented after a researcher walked by a radar tube and the chocolate bar in his pocket melted.</value>
+  </data>
+  <data name="877" xml:space="preserve">
+    <value>23% of all photocopier faults world-wide are caused by people sitting on them and photocopying their butts.</value>
+  </data>
+  <data name="878" xml:space="preserve">
+    <value>71% of office workers stopped on the street for a survey agreed to give up their computer passwords in exchange for a chocolate bar.</value>
+  </data>
+  <data name="879" xml:space="preserve">
+    <value>A Boeing 767 airliner is made of 3,100,000 separate parts.</value>
+  </data>
+  <data name="880" xml:space="preserve">
+    <value>The first FAX machine was patented in 1843, 33 years before Alexander Graham Bell demonstrated the telephone.</value>
+  </data>
+  <data name="881" xml:space="preserve">
+    <value>Hershey's Kisses are called that because the machine that makes them looks like it's kissing the conveyor belt.</value>
+  </data>
+  <data name="882" xml:space="preserve">
+    <value>'Typewriter' is the longest word that can be made using the keys on only one row of the keyboard.</value>
+  </data>
+  <data name="883" xml:space="preserve">
+    <value>In 1980, there was only one country in the world with no telephones: Bhutan.</value>
+  </data>
+  <data name="884" xml:space="preserve">
+    <value>The 'sixth sick sheik's sixth sheep's sick' is said to be thetoughest tongue twister in the English language.</value>
+  </data>
+  <data name="885" xml:space="preserve">
+    <value>'Go,' is the shortest complete sentence in the English language.</value>
+  </data>
+  <data name="886" xml:space="preserve">
+    <value>The phrase 'rule of thumb' is derived from an old English law which stated that you couldn't beat your wife with anything wider than your thumb.</value>
+  </data>
+  <data name="887" xml:space="preserve">
+    <value>The term 'the whole 9 yards' came from WWII fighter pilots in the South Pacific. When arming their airplanes on the ground, the .50 caliber machine gun ammo belts measured exactly 27 feet, before being loaded into the fuselage. If the pilots fired all their ammo at a target, it got 'the whole 9 yards.'</value>
+  </data>
+  <data name="888" xml:space="preserve">
+    <value>There are only four words in the English language which end in '-dous': tremendous, horrendous, stupendous, and hazardous.</value>
+  </data>
+  <data name="889" xml:space="preserve">
+    <value>The word 'testify' is based on the Ancient Roman practice of making men swear on their testicles when making a statement in court.</value>
+  </data>
+  <data name="890" xml:space="preserve">
+    <value>In England in the 1880s, 'pants' was considered a dirty word.</value>
+  </data>
+  <data name="891" xml:space="preserve">
+    <value>According to many language experts, the most difficult kind of phrase to create is a palindrome, a sentence or group of sentences that reads the same backward and forward. A few examples:Red rum, sir, is murder.Ma is as selfless as I am.Nurse, I spy gypsies. Run!A man, a plan, a canal - Panama.He lived as a devil, eh?</value>
+  </data>
+  <data name="892" xml:space="preserve">
+    <value>The dot that appears over the letter i is called a 'tittle.'</value>
+  </data>
+  <data name="893" xml:space="preserve">
+    <value>If you were to spell out numbers, you would you have to go until 1,000 until you would find the letter A. </value>
+  </data>
+  <data name="894" xml:space="preserve">
+    <value>Montpelier, VT is the only U.S. state capital without a McDonalds.</value>
+  </data>
+  <data name="895" xml:space="preserve">
+    <value>There is a bar in London that sells vaporized vodka, which is inhaled instead of sipped.</value>
+  </data>
+  <data name="896" xml:space="preserve">
+    <value>In the White House, there are 13,092 knives, forks, and spoons.</value>
+  </data>
+  <data name="897" xml:space="preserve">
+    <value>Coca-cola was originally green.</value>
+  </data>
+  <data name="898" xml:space="preserve">
+    <value>The only food that does not spoil: honey.</value>
+  </data>
+  <data name="899" xml:space="preserve">
+    <value>The Pilgrims ate popcorn at the first Thanksgiving dinner.</value>
+  </data>
+  <data name="900" xml:space="preserve">
+    <value>Iceland consumes more Coca-Cola per capita than any other nation.</value>
+  </data>
+  <data name="901" xml:space="preserve">
+    <value>Cranberry is the only Jell-O flavor that contains real fruit flavoring.</value>
+  </data>
+  <data name="902" xml:space="preserve">
+    <value>The drive-through line on opening day at the McDonald's restaurant in Kuwait City, Kuwait was seven miles long at its peak.</value>
+  </data>
+  <data name="903" xml:space="preserve">
+    <value>American Airlines saved $40,000 in 1987 by eliminating one olive from each salad served first class.</value>
+  </data>
+  <data name="904" xml:space="preserve">
+    <value>Celery has negative calories! It takes more calories to eat a piece of celery than the celery has in it to begin with.</value>
+  </data>
+  <data name="905" xml:space="preserve">
+    <value>The average American drinks about 600 sodas a year. </value>
+  </data>
+  <data name="906" xml:space="preserve">
+    <value>Number of US states that claim test scores in their elementary schools are above national average: 50.</value>
+  </data>
+  <data name="907" xml:space="preserve">
+    <value>One in every four Americans has appeared on television.</value>
+  </data>
+  <data name="908" xml:space="preserve">
+    <value>In 1998, more fast-food employees were murdered on the job than police officers. </value>
+  </data>
+  <data name="909" xml:space="preserve">
+    <value>There are more collect calls on Father's Day than any other day of the year.</value>
+  </data>
+  <data name="910" xml:space="preserve">
+    <value>Title 14, Section 1211, of the Code of Federal Regulations, implemented on July 16, 1969, makes it illegal for U. S. citizens to have any contact with extraterrestrials or their vehicles.</value>
+  </data>
+  <data name="911" xml:space="preserve">
+    <value>There are more cars in Southern California than there are cows in India.</value>
+  </data>
+  <data name="912" xml:space="preserve">
+    <value>Percentage of Americans who say that God has spoken to them: 36.</value>
+  </data>
+  <data name="913" xml:space="preserve">
+    <value>Average number of people airborne over the US any given hour: 61,000.</value>
+  </data>
+  <data name="914" xml:space="preserve">
+    <value>Portion of land in the US owned by the government: 1/3.</value>
+  </data>
+  <data name="915" xml:space="preserve">
+    <value>In 21 states, Wal-Mart is the single largest employer.</value>
+  </data>
+  <data name="916" xml:space="preserve">
+    <value>It's against the law in Kansas to catch fish with your bare hands.</value>
+  </data>
+  <data name="917" xml:space="preserve">
+    <value>Maine is the only state a one-syllable name.</value>
+  </data>
+  <data name="918" xml:space="preserve">
+    <value>There are 2,000,000 millionaires in the United States.</value>
+  </data>
+  <data name="919" xml:space="preserve">
+    <value>The United States has five percent of the world's population, but twenty-five percent of the world's prison population.</value>
+  </data>
+  <data name="920" xml:space="preserve">
+    <value>In the United States, a pound of potato chips costs two hundred times more than a pound of potatoes.</value>
+  </data>
+  <data name="921" xml:space="preserve">
+    <value>More than 2 billion pencils are manufactured each year in the United States. If these were laid end to end they would circle the world nine times. The average lead pencil will draw a line 35 miles long or write approximately 50,000 English words.</value>
+  </data>
+  <data name="922" xml:space="preserve">
+    <value>Mailmen in Russia now carry revolvers after a recent decision by the government.</value>
+  </data>
+  <data name="923" xml:space="preserve">
+    <value>One out of five people in the world (1.1 billion people) live on less than $1 per day.</value>
+  </data>
+  <data name="924" xml:space="preserve">
+    <value>Quebec City, Canada, has about as much street crime as Disney World.</value>
+  </data>
+  <data name="925" xml:space="preserve">
+    <value>The largest ocean liners pay a $250,000 toll for each trip through the Panama Canal. The canal generates fully one-third of Panama's entire economy.</value>
+  </data>
+  <data name="926" xml:space="preserve">
+    <value>The Spanish word esposa means 'wife.' The plural, esposas, means 'wives,' but also 'handcuffs.'</value>
+  </data>
+  <data name="927" xml:space="preserve">
+    <value>City with the most Rolls Royces per capita: Hong Kong.</value>
+  </data>
+  <data name="928" xml:space="preserve">
+    <value>Of the six men who made up the Three Stooges, three of them were real brothers (Moe, Curly and Shemp).</value>
+  </data>
+  <data name="929" xml:space="preserve">
+    <value>If Barbie were life-size, her measurements would be 39-23-33. She would stand 7 feet, 2 inches tall.</value>
+  </data>
+  <data name="930" xml:space="preserve">
+    <value>On average, people fear spiders more than they do death.</value>
+  </data>
+  <data name="931" xml:space="preserve">
+    <value>In Tokyo you can buy a toupee for your dog.</value>
+  </data>
+  <data name="932" xml:space="preserve">
+    <value>A dime has 118 ridges around the edge.</value>
+  </data>
+</root>
