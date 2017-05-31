@@ -81,25 +81,11 @@ namespace MainBook.CustomControls
             base.Padding = new Size(20, 20);
         }
 
-        public void RaiseSwipDeltaY(double delta)
-        {
-            if (SwipDeltaY != null)
-                SwipDeltaY(this, delta);
-        }
-
-        public void RaiseSwipedDown()
-        {
-            if (SwipedDown != null)
-                SwipedDown(this, new EventArgs());
-        }
-
         public void RaiseSwipedLeft()
         {
             this.TranslateTo(-1 * _translateTo_x, 0, _animationSpeed);
             this.FadeTo(0, _animationSpeed);
             this.RotateTo(-1 * _rotateTo, _animationSpeed);
-            if (SwipedLeft != null)
-                SwipedLeft(this, null);
         }
 
         public void RaiseSwipedRight()
@@ -107,8 +93,6 @@ namespace MainBook.CustomControls
             this.TranslateTo(_translateTo_x, 0, _animationSpeed);
             this.FadeTo(0, _animationSpeed);
             this.RotateTo(_rotateTo, _animationSpeed);
-            if (SwipedRight != null)
-                SwipedRight(this, null);
         }
     }
 }
