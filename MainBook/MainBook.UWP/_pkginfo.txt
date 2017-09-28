@@ -1,1 +1,1 @@
-D:\Work Folder\MainBook_ENG\MainBook\MainBook.UWP\AppPackages\MainBook.UWP_1.1.0.0\MainBook.UWP_1.1.0.0_x86_x64_arm.appxbundle
+D:\Work Folder\MainBook_ENG\MainBook\MainBook.UWP\AppPackages\MainBook.UWP_1.1.1.0\MainBook.UWP_1.1.1.0_x86_x64_arm.appxbundle

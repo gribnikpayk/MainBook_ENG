@@ -176,7 +176,7 @@ namespace MainBook.Views
         private ShareMessage GetShareMessage()
         {
             var frame = GetDisplayedFrame();
-            return frame != null ? new ShareMessage { Text = frame.Text, Title = "Интересный факт!" } : null;
+            return frame != null ? new ShareMessage { Text = frame.Text, Title = "Interesting Fact!" } : null;
         }
         private FactFrame GetDisplayedFrame()
         {
